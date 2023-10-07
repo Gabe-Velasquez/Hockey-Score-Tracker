@@ -17,3 +17,17 @@ try {
 } catch (error) {
 	console.error(error);
 }
+
+fetch("https://v1.hockey.api-sports.io/games/events?game=8279", {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-host": "v1.hockey.api-sports.io",
+		"x-rapidapi-key": "XxXxXxXxXxXxXxXxXxXxXxXx"
+	}
+})
+.then(response => {
+	console.log(response);
+})
+.catch(err => {
+	console.log(err);
+});
