@@ -1,13 +1,9 @@
 export default function About(){
     return(
-        <div>
+        <div className="card">
             <h1 className="text-center">About</h1>
             <p>This is a simple web application built using React.js, Node.js and Express.js.</p>
-            <br/>
-            <p><strong>React: </strong></p>
-            <ul>
-                <li>A JavaScript library for building user interfaces</li>
-            </ul>
+            <p>This application is built to fetch scores in the NHL </p>
         </div>
     )
 }
