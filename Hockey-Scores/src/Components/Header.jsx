@@ -47,9 +47,8 @@ export default function Header(){
                 <NavDropdown.Item href="#">Vegas Golden Knights</NavDropdown.Item>
                 <NavDropdown.Item href="#">Washington Capitals</NavDropdown.Item>
                 <NavDropdown.Item href="#">Winnipeg Jets</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
+                <NavDropdown.Item href="">
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
