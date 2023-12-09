@@ -1,6 +1,5 @@
 import Card  from 'react-bootstrap/Card';
-
-function Home(){
+export default function Nucks(){
     return(
         <Card style={{ width: '18rem' }}>
         <Card.Body>
@@ -14,13 +13,5 @@ function Home(){
           <Card.Link href="#">Another Link</Card.Link>
         </Card.Body>
       </Card>
-        // <div className="card">
-        //     <h1>Home</h1>
-        //     <p><a href="/about">Go to About Page</a></p>
-        //     <p><a href="/contacts">Go to Contacts Page</a></p>
-        //     <p><a href="/scores">Go to Scores!</a></p>
-        // </div>
     )
 }
-
-export default Home;
