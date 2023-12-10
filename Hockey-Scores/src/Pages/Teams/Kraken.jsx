@@ -1,6 +1,5 @@
 import Card  from 'react-bootstrap/Card';
-export default function Jets(){
-    // YOOOUUURRRRR PHEONIX... i mean, WINNIPEG JETS!
+export default function Kraken(){
     return(
         <Card style={{ width: '18rem' }}>
         <Card.Body>
