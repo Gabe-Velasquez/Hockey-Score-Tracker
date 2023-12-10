@@ -71,6 +71,118 @@ const router = createBrowserRouter([
     {
       path: '/Teams/ColoradoAvalanche',
       element: <Avs />
+    },
+    {
+      path: '/Teams/BostonBruins',
+      element: <BBB />
+    },
+    {
+      path: '/Teams/BuffaloSabres',
+      element: <Buffaslug />
+    },
+    {
+      path: '/Teams/CalgaryFlames',
+      element: <FSD />
+    },
+    {
+      path: '/Teams/CarolinaHurricanes',
+      element: <Canes />
+    },
+    {
+      path: '/Teams/ChicagoBlackhawks',
+      element: <Hawks />
+    },
+    {
+      path: '/Teams/WashingtonCapitals',
+      element: <Caps />
+    },
+    {
+      path: '/Teams/ColumbusBlueJackets',
+      element: <Jackets />
+    },
+    {
+      path: '/Teams/AnaheimDucks',
+      element: <Ducks />
+    },
+    {
+      path: '/Teams/DallasStars',
+      element: <Sheriffs />
+    },
+    {
+      path: '/Teams/TampaBayLightning',
+      element: <Bolts />
+    },
+    {
+      path: '/Teams/FloridaPanthers',
+      element: <Cats />
+    },
+    {
+      path: '/Teams/NewJerseyDevils',
+      element: <Devils />
+    },
+    {
+      path: '/Teams/NewYorkIslanders',
+      element: <Landers />
+    },
+    {
+      path: '/Teams/NewYorkRangers',
+      element: <Rangers />
+    },
+    {
+      path: '/Teams/PhiladelphiaFlyers',
+      element: <Flyers />
+    },
+    {
+      path: '/Teams/MontrealCanadiens',
+      element: <Habs />
+    },
+    {
+      path: '/Teams/WinnipegJets',
+      element: <Jets />
+    },
+    {
+      path: '/Teams/TorontoMapleLeafs',
+      element: <Leafs />
+    },
+    {
+      path: '/Teams/LosAngelesKings',
+      element: <Monarchs />
+    },
+    {
+      path: '/Teams/StLouisBlues',
+      element: <Notes />
+    },
+    {
+      path: '/Teams/VancouverCanucks',
+      element: <Nucks />
+    },
+    {
+      path: '/Teams/EdmontonOilers',
+      element: <Oil />
+    },
+    {
+      path: '/Teams/PittsburghPenguins',
+      element: <Pens />
+    },
+    {
+      path:'/Teams/NashvillePredators',
+      element: <Preds />
+    },
+    {
+      path: '/Teams/SanJoseSharks',
+      element: <Teal />
+    },
+    {
+      path: '/Teams/MinnesotaWild',
+      element: <Wild />
+    },
+    {
+      path: '/Teams/DetroitRedWings',
+      element: <Wings />
+    },
+    {
+      path: '/Teams/ArizonaCoyotes',
+      element: <Yotes />
     }
   ],
 },
