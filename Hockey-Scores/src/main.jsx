@@ -41,7 +41,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    
+    errorElement: <div><img className='nfound' src='/hockey404.jpeg'></img><h1 className='display-2 text-center'>Whoops! This page is empty... please go back</h1></div>,
   children:[
     {
       index: true,
