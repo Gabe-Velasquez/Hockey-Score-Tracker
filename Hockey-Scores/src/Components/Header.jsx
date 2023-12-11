@@ -54,7 +54,7 @@ export default function Header(){
               </NavDropdown>
             </Nav>
             <Nav>
-              <Nav.Link href="/contacts">Contact</Nav.Link>
+              <Nav.Link href="/Contact">Contact</Nav.Link>
               {/* <Nav.Link eventKey={2} href="#memes">
                 Dank memes
               </Nav.Link> */}
