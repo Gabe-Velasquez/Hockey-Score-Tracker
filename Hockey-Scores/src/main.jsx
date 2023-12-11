@@ -8,6 +8,7 @@ import Scores from './Pages/Scores.jsx'
 import Teams from './Pages/Teams.jsx'
 import Avs from './Pages/Teams/Avs.jsx'
 import BBB from './Pages/Teams/BBB.jsx'
+import Kraken from './Pages/Teams/Kraken.jsx'
 import Bolts from './Pages/Teams/Bolts.jsx'
 import Buffaslug from './Pages/Teams/Buffaslug.jsx'
 import Canes from './Pages/Teams/Canes.jsx'
@@ -21,6 +22,7 @@ import Habs from './Pages/Teams/Habs.jsx'
 import Hawks from './Pages/Teams/Hawks.jsx'
 import Jackets from './Pages/Teams/Jackets.jsx'
 import Jets from './Pages/Teams/Jets.jsx'
+import Knights from './Pages/Teams/Knights.jsx'
 import Landers from './Pages/Teams/Landers.jsx'
 import Leafs from './Pages/Teams/Leafs.jsx'
 import Monarchs from './Pages/Teams/Monarchs.jsx'
@@ -30,6 +32,7 @@ import Oil from './Pages/Teams/Oil.jsx'
 import Pens from './Pages/Teams/Pens.jsx'
 import Preds from './Pages/Teams/Preds.jsx'
 import Rangers from './Pages/Teams/Rangers.jsx'
+import Sens from './Pages/Teams/Sens.jsx'
 import Sheriffs from './Pages/Teams/Sheriffs.jsx'
 import Teal from './Pages/Teams/Teal.jsx'
 import Wild from './Pages/Teams/Wild.jsx'
@@ -71,6 +74,10 @@ const router = createBrowserRouter([
     {
       path: '/Teams/ColoradoAvalanche',
       element: <Avs />
+    },
+    {
+      path: '/Teams/SeattleKraken',
+      element: <Kraken />
     },
     {
       path: '/Teams/BostonBruins',
@@ -145,12 +152,20 @@ const router = createBrowserRouter([
       element: <Leafs />
     },
     {
+      path: '/Teams/VegasGoldenKnights',
+      element: <Knights />
+    },
+    {
       path: '/Teams/LosAngelesKings',
       element: <Monarchs />
     },
     {
       path: '/Teams/StLouisBlues',
       element: <Notes />
+    },
+    {
+      path: '/Teams/OttawaSenators',
+      element: <Sens />
     },
     {
       path: '/Teams/VancouverCanucks',
