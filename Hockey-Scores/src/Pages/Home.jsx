@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 import Card  from 'react-bootstrap/Card';
 import axios from 'axios';
-import {liveScores} from '../utils/API';
 
 function Home(){
+  const API_KEY = import.meta.env.VITE_REACT_APP_API_KEY;
   const [scores, setScores] = useState([])
   useEffect(()=>{
-    axios.get(liveScores)
+    axios.get(`https://api.the-odds-api.com/v4/sports/icehockey_nhl/scores/?daysFrom=1&apiKey=${API_KEY}`)
     .then(res=>{setScores(res.data)})
     .catch(err=>console.log(err))
   },[])
@@ -15,16 +15,18 @@ function Home(){
         <table>
           <thead>
             <tr>
-              <th>Team Name</th>
-              <th>Score</th>
+              <th>Home Team</th>
+              <th></th>
+              <th>Away Team</th>
             </tr>
           </thead>
           <tbody>
-            {/* {scores.map((r,i)=>(
+            {scores.map((r,i)=>(
               <tr key={i}>
                 <td>{r.home_team}</td>
-                <td>{r.scores.score}</td>
-              </tr>))} */}
+                <td></td>
+                <td>{r.away_team}</td>
+              </tr>))}
           </tbody>
         </table>
         <Card style={{ width: '18rem' }}>
