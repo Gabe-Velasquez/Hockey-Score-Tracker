@@ -5,6 +5,7 @@ import Home from './Pages/Home.jsx'
 import About from './Pages/About.jsx'
 import Contact from './Pages/Contact.jsx'
 import Scores from './Pages/Scores.jsx'
+import Upcoming from './Pages/Upcoming.jsx'
 import Teams from './Pages/Teams.jsx'
 import Avs from './Pages/Teams/Avs.jsx'
 import BBB from './Pages/Teams/BBB.jsx'
@@ -62,6 +63,9 @@ const router = createBrowserRouter([
       path: '/Scores',
       element: <Scores />
     },
+    { 
+      path: '/Upcoming',
+      element: <Upcoming />},
     {
       path: '/Contact',
       element: <Contact />
