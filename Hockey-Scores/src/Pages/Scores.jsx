@@ -1,4 +1,3 @@
-import Card from 'react-bootstrap/Card'
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
@@ -12,7 +11,9 @@ export default function Scores(){
     .catch(err=>console.log(err))
   },[])
     return(
-      <table className=' m-atuo text-center'>
+      <div>
+        <h1 className='text-center'>Live NHL Scores</h1>
+      <table className='centered-t text-center'>
           <thead>
             <tr>
               <th>Home Team</th>
@@ -34,6 +35,7 @@ export default function Scores(){
             }
           </tbody>
         </table>
+      </div>
       //   // TODO: Create loop that will dynamically generate scores for current games! 
       //   <Card className='m-auto text-center' style={{ width: '18rem'}}>
       //   <Card.Body>

@@ -11,7 +11,8 @@ export default function Upcoming(){
     },[])
       return(
         <div>
-          <table className=' m-atuo text-center'>
+            <h1 className='text-center'>Upcoming Games</h1>
+          <table className=' centered-t text-center'>
             <thead>
               <tr>
                 <th>Home Team</th>
