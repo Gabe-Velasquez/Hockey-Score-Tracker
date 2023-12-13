@@ -24,7 +24,31 @@ export default function Scores(){
           </thead>
           <tbody>
             {scores && scores.map((r,i)=>(
-              r.scores !== null && 
+              r.scores !== null && r.completed === false &&
+              <tr key={i}>
+                <td>{r.home_team}</td>
+                <td>{r.scores && r.scores.find(team => team.name === r.home_team)?.score}</td>
+                <td>{r.away_team}</td>
+                <td>{r.scores && r.scores.find(team => team.name === r.away_team)?.score}</td>
+              </tr>
+              ))
+            }
+          </tbody>
+        </table>
+        <hr></hr>
+      <h1 className='text-center'>Concluded Games</h1>
+      <table className='centered-t text-center'>
+          <thead>
+            <tr>
+              <th>Home Team</th>
+              <th>Home Score</th>
+              <th>Away Team</th>
+              <th>Away Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            {scores && scores.map((r,i)=>(
+              r.scores !== null && r.completed === true &&
               <tr key={i}>
                 <td>{r.home_team}</td>
                 <td>{r.scores && r.scores.find(team => team.name === r.home_team)?.score}</td>
