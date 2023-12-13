@@ -1,38 +1,11 @@
-import { useEffect, useState } from 'react';
+
 import Card  from 'react-bootstrap/Card';
-import axios from 'axios';
+
 
 function Home(){
-  const API_KEY = import.meta.env.VITE_REACT_APP_API_KEY;
-  const [scores, setScores] = useState([]);
-  useEffect(()=>{
-    axios.get(`https://api.the-odds-api.com/v4/sports/icehockey_nhl/scores/?daysFrom=1&apiKey=${API_KEY}`)
-    .then(res=>{setScores(res.data)})
-    .catch(err=>console.log(err))
-  },[])
     return(
       <div>
-        <table className='text-center'>
-          <thead>
-            <tr>
-              <th>Home Team</th>
-              <th>Home Score</th>
-              <th>Away Team</th>
-              <th>Away Score</th>
-            </tr>
-          </thead>
-          <tbody>
-            {scores && scores.map((r,i)=>(
-              <tr key={i}>
-                <td>{r.home_team}</td>
-                <td>{r.scores && r.scores.find(team => team.name === r.home_team)?.score}</td>
-                <td>{r.away_team}</td>
-                <td>{r.scores && r.scores.find(team => team.name === r.away_team)?.score}</td>
-              </tr>
-              ))
-            }
-          </tbody>
-        </table>
+        
         <Card style={{ width: '18rem' }}>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>

@@ -11,21 +11,20 @@ export default function Upcoming(){
     },[])
       return(
         <div>
-          <table>
+          <table className=' m-atuo text-center'>
             <thead>
               <tr>
                 <th>Home Team</th>
-                
-                <th></th>
                 <th>Away Team</th>
+                <th>Puck Drop</th>
               </tr>
             </thead>
             <tbody>
               {scores.map((r,i)=>(
                 <tr key={i}>
                   <td>{r.home_team}</td>
-                  <td></td>
                   <td>{r.away_team}</td>
+                  <td>{new Date(r.commence_time).toLocaleString()}</td>
                 </tr>))}
             </tbody>
           </table>

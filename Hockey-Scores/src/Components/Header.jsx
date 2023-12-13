@@ -14,6 +14,7 @@ export default function Header(){
             <Nav className="me-auto">
               <Nav.Link href="/about">About</Nav.Link>
               <Nav.Link href="/scores">Scores</Nav.Link>
+              <Nav.Link href='/upcoming'>Upcoming</Nav.Link>
               {/* place list of teams here */}
               <TeamList />
             </Nav>
