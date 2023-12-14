@@ -164,6 +164,7 @@ h1 {
 /* Ice Blue #96D8D8 */
 /* Boundless Blue #384F5F */
 /* Shadow Blue #639FB6 */
+background-image: '../images/SEA.jpeg';
 }
 .SJS{
 /* Deep Pacific Teal #006772 */
@@ -194,7 +195,8 @@ h1 {
 /* Steel Grey # */
 /* Gold #B9975B */
 /* Red #C8102E */
-/* Black #000000 */
+/* Black #000000 */ 
+background-image: '../images/VGK.jpeg';
 }
 .WPG{
 /* Polar Night Blue #041E42 */
