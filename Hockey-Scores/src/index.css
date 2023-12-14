@@ -42,6 +42,117 @@ h1 {
   width: 50%
 }
 
+/* NHL TEAM CLASSES */
+.ANA{
+/* Black #010101 */
+/* Metallic Gold #B9975B */
+/* Orange #FC4C02 */
+}
+.ARI{
+/* Brick Red #6F263D */
+/* Sand #DDCBA4 */
+/* Purple #5F259F*/
+}
+.BOS{
+/* Black #010101 */
+/* Gold #FDB717 */
+}
+.BUF{
+/* Royal Blue #003087 */
+/* Gold #FDB717 */
+/* White #FFFFFF */
+}
+.CAR{
+  /* Red #C8102E */
+  /* White #FFFFFF */
+  /* Gray #A2AAAD*/
+}
+.CBJ{
+
+}
+.CGY{
+
+}
+.CHI{
+
+}
+.COL{
+ background-image: '../images/COL.jpeg';
+ /* Burgundy #8A2432 */
+ /* Blue #236093 */
+ /* Silver #C2C6C9 */
+}
+.DAL{
+
+}
+.DET{
+
+}
+.EDM{
+
+}
+.FLA{
+
+}
+.LAK{
+
+}
+.MIN{
+
+}
+.MTL{
+
+}
+.NJD{
+
+}
+.NSH{
+
+}
+.NYI{
+
+}
+.NYR{
+
+}
+.OTT{
+
+}
+.PHI{
+
+}
+.PIT{
+
+}
+.SEA{
+
+}
+.SJS{
+
+}
+.STL{
+
+}
+.TBL{
+
+}
+.TOR{
+
+}
+.VAN{
+
+}
+.VGK{
+
+}
+.WPG{
+
+}
+.WSH{
+
+}
+
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
