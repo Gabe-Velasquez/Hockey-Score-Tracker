@@ -2,7 +2,7 @@ import Card  from 'react-bootstrap/Card';
 export default function Caps(){
     // Still rooting for Ovi scoring those goals! 
     return(
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>
           <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>

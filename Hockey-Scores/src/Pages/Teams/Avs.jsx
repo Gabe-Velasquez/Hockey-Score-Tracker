@@ -2,7 +2,8 @@ import Card  from 'react-bootstrap/Card';
 export default function Avs(){
     // And now the Rocky Mountain Extremes.... nvm Colorado Avalanche
     return(
-        <Card style={{ width: '18rem' }}>
+      <div className='COL'>
+        <Card style={{ width: '18rem' }} className='Team-Card' >
           <Card.Body>
             <Card.Title>Welcome AVALANCHE FANS!!! </Card.Title>
             <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
@@ -14,5 +15,6 @@ export default function Avs(){
             <Card.Link href="#">Another Link</Card.Link>
           </Card.Body>
         </Card>
+      </div>
     )
 }

@@ -42,7 +42,24 @@ h1 {
   width: 50%
 }
 
+
 /* NHL TEAM CLASSES */
+.Team-Card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  height: 300px;
+  border-radius: 5px;
+  backdrop-filter: blur(14px);
+  background-color: rgba(231, 224, 224, 0.796);
+  padding: 10px;
+  text-align: center;
+  border-radius: 25px;
+}
+
 .ANA{
 /* Black #010101 */
 /* Metallic Gold #B9975B */
@@ -83,10 +100,20 @@ h1 {
 /* Black #010101 */
 }
 .COL{
- background-image: '../images/COL.jpeg';
+ background-image: url('../src/images/COL.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
+
+ /* background-repeat: no-repeat;
+ height: 100vh; /* Set height to 100vh for full window height */
+ /* background-size: contain;
+ width: 100%; */ 
  /* Burgundy #8A2432 */
  /* Blue #236093 */
  /* Silver #C2C6C9 */
+ 
 }
 .DAL{
 /* Victory Green #00823E */

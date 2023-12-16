@@ -2,7 +2,7 @@ import Card  from 'react-bootstrap/Card';
 export default function Cats(){
     // The underdog of the 2023 playoffs! Meow!!
     return(
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>
           <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
