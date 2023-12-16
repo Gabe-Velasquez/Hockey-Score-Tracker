@@ -2,6 +2,7 @@ import Card  from 'react-bootstrap/Card';
 export default function Preds(){
     // Smashville or Trashville are acceptable here depending which side you root for
     return(
+      <div>
         <Card style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>
@@ -14,5 +15,6 @@ export default function Preds(){
           <Card.Link href="#">Another Link</Card.Link>
         </Card.Body>
       </Card>
+      </div>
     )
 }

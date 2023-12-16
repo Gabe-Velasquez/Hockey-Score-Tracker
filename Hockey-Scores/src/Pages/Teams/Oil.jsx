@@ -1,8 +1,9 @@
-import Card  from 'react-bootstrap/Card';
-export default function Oil(){
-    //Which Wonder Twin will be the first to leave?
-    return(
-        <Card style={{ width: '18rem' }} className='Team-Card'>
+import Card from 'react-bootstrap/Card';
+export default function Oil() {
+  //Which Wonder Twin will be the first to leave?
+  return (
+    <div>
+      <Card style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>
           <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
@@ -14,5 +15,6 @@ export default function Oil(){
           <Card.Link href="#">Another Link</Card.Link>
         </Card.Body>
       </Card>
-    )
+    </div>
+  )
 }

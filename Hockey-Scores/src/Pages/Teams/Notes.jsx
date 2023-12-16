@@ -2,6 +2,7 @@ import Card  from 'react-bootstrap/Card';
 export default function Notes(){
     //The Blue Notes... 9 hours from West Virginia but they always sing this song.... 
     return(
+      <div>
         <Card style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>
@@ -14,5 +15,6 @@ export default function Notes(){
           <Card.Link href="#">Another Link</Card.Link>
         </Card.Body>
       </Card>
+      </div>
     )
 }
