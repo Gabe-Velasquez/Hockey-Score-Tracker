@@ -40,6 +40,11 @@ h1 {
   width: 50%;
 }
 
+.team-container{
+  display: flex;
+  
+}
+
 /* NHL TEAM CLASSES */
 .Team-Card {
   position: absolute;
