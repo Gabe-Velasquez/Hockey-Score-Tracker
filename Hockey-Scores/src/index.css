@@ -61,6 +61,11 @@ h1 {
   /* Black #010101 */
   /* Metallic Gold #B9975B */
   /* Orange #FC4C02 */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .ARI {
   /* Brick Red #6F263D */
