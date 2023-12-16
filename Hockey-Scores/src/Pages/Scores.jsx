@@ -9,7 +9,7 @@ export default function Scores(){
     axios.get(`https://api.the-odds-api.com/v4/sports/icehockey_nhl/scores/?daysFrom=1&apiKey=${API_KEY}`)
     .then(res=>{setScores(res.data)})
     .catch(err=>console.log(err))
-  },[])
+  })
     return(
       <div>
         <h1 className='text-center'>Live NHL Scores</h1>
