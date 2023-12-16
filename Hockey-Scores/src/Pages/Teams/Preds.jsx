@@ -12,7 +12,7 @@ export default function Preds(){
             bulk of the content.
           </Card.Text>
           {/* Socials */}
-          <Card.Link href='' rel='noreferrer' target="_blank">
+          {/* <Card.Link href='' rel='noreferrer' target="_blank">
                 <FontAwesomeIcon icon={faFacebook} />
               </Card.Link>
               <Card.Link href='https://www.instagram.com/seattlekraken/' rel="noreferrer" target="_blank">
@@ -26,7 +26,7 @@ export default function Preds(){
               </Card.Link>
               <Card.Link href="https://twitter.com/SeattleKraken" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faXTwitter} />
-              </Card.Link>
+              </Card.Link> */}
         </Card.Body>
       </Card>
       </div>
