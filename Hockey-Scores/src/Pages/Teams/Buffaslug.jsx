@@ -1,12 +1,14 @@
 import Card from 'react-bootstrap/Card';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faTiktok, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import teams from '../../utils/teams'
+import renderSocialLinks from '../../utils/renderSocialLinks';
 export default function Buffaslug() {
+  const buffaloSabres = teams.filter((team) => team.team === "Buffalo Sabres");
   return (
     <div className='BUF'>
-      <Card style={{ width: '18rem' }} className='Team-Card'>
+      {buffaloSabres.map((team)=>(
+      <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
-          <Card.Title>Welcome </Card.Title>
+          <Card.Title>Welcome {team.team} FANS!!!  </Card.Title>
           <Card.Subtitle className='mb-2 text-muted'>
             Card Subtitle
           </Card.Subtitle>
@@ -15,7 +17,8 @@ export default function Buffaslug() {
             bulk of the content.
           </Card.Text>
           {/* Socials */}
-          <Card.Link href='https://www.facebook.com/BuffaloSabres' rel='noreferrer' target="_blank">
+          {renderSocialLinks(team)}
+          {/* <Card.Link href='https://www.facebook.com/BuffaloSabres' rel='noreferrer' target="_blank">
                 <FontAwesomeIcon icon={faFacebook} />
               </Card.Link>
               <Card.Link href='https://www.instagram.com/buffalosabres' rel="noreferrer" target="_blank">
@@ -29,9 +32,10 @@ export default function Buffaslug() {
               </Card.Link>
               <Card.Link href="https://twitter.com/BuffaloSabres" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faXTwitter} />
-              </Card.Link>
+              </Card.Link> */}
         </Card.Body>
       </Card>
+           ))}
     </div>
   );
 }

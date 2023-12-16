@@ -3,9 +3,10 @@ import teams from '../../utils/teams'
 import renderSocialLinks from '../../utils/renderSocialLinks';
 export default function Avs(){
     // And now the Rocky Mountain Extremes.... nvm Colorado Avalanche
+    const coloradoAvalanche = teams.filter((team) => team.team === "Colorado Avalanche");
     return(
       <div className='COL'>
-        {teams.map((team)=>(
+        {coloradoAvalanche.map((team)=>(
         <Card key={team.team} style={{ width: '18rem' }} className='Team-Card' >
           <Card.Body>
             <Card.Title>Welcome {team.team} FANS!!! </Card.Title>
