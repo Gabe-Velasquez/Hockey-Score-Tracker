@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 export default function Teals() {
   // Never heard a sharks fan call them this... then again I only know one fan.
   return (
-    <div>
+    <div className='SJS'>
     <Card style={{ width: '18rem' }} className='Team-Card'>
       <Card.Body>
         <Card.Title>Welcome </Card.Title>

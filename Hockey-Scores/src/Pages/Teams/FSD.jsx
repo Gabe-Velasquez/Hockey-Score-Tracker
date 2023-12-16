@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 export default function FSD() {
   // name does not stand for Full Self Driving like what I thought at first.
   return (
-    <div>
+    <div className='CGY'>
       <Card style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>

@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 export default function Wings() {
   // Another original six team
   return (
-    <div>
+    <div className='DET'>
       <Card style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>

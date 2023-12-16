@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 export default function BBB() {
   return (
-    <div>
+    <div className='BOS'>
       <Card style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome Bruins </Card.Title>

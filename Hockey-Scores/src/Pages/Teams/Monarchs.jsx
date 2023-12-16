@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 export default function Monarchs() {
   return (
-    <div>
+    <div className='LAK'>
       <Card style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>

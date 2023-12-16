@@ -1,7 +1,7 @@
 import Card  from 'react-bootstrap/Card';
 export default function Leafs(){
     return(
-      <div>
+      <div className='TOR'>
         <Card style={{ width: '18rem' }} className='Team-Card'>
           <Card.Body>
             <Card.Title>Welcome </Card.Title>

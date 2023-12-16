@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 export default function Rangers() {
   // They have a nickname but their actual name is shorter
   return (
-    <div>
+    <div className='NYR'>
       <Card style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>

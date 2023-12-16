@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 export default function Pens() {
   // Not to be confused by the Bic product but those tiny birds with tuxedos
   return (
-    <div>
+    <div className='PIT'>
       <Card style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>

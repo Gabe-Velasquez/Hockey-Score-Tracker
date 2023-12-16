@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 export default function Oil() {
   //Which Wonder Twin will be the first to leave?
   return (
-    <div>
+    <div className='EDM'>
       <Card style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>

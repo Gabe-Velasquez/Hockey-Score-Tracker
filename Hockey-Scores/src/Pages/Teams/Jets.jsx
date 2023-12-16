@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 export default function Jets() {
   // YOOOUUURRRRR PHEONIX... i mean, WINNIPEG JETS!
   return (
-    <div>
+    <div className='WPG'>
       <Card style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>

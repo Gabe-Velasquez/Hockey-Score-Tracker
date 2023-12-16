@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 export default function Hawks() {
   // No, this is not from the first Mighty Ducks movie... one of the original six teams!
   return (
-    <div>
+    <div className='CHI'>
       <Card style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>

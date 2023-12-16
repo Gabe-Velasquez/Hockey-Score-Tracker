@@ -2,7 +2,7 @@ import Card  from 'react-bootstrap/Card';
 export default function Landers(){
     // Ice Landers but Landers makes it easier for writing pages
     return(
-      <div>
+      <div className='NYI'>
         <Card style={{ width: '18rem' }} className='Team-Card'>
           <Card.Body>
             <Card.Title>Welcome </Card.Title>

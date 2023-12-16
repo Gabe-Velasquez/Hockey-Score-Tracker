@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 export default function Buffaslug() {
   return (
-    <div>
+    <div className='BUF'>
       <Card style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>

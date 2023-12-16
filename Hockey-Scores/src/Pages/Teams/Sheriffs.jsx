@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 export default function Sherrifs() {
   // North Star vibes here
   return (
-    <div>
+    <div className='DAL'>
       <Card style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>

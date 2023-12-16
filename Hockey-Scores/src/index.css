@@ -66,35 +66,70 @@ h1 {
   /* Brick Red #6F263D */
   /* Sand #DDCBA4 */
   /* Purple #5F259F*/
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .BOS {
   /* Black #010101 */
   /* Gold #FDB717 */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .BUF {
   /* Royal Blue #003087 */
   /* Gold #FDB717 */
   /* White #FFFFFF */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .CAR {
   /* Red #C8102E */
   /* White #FFFFFF */
   /* Gray #A2AAAD*/
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .CBJ {
   /* Union Blue #041E42 */
   /* Goal Red #C8102E */
   /* Capital Silver #A2AAAD */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .CGY {
   /* Red #C8102E */
   /* Yellow #F1BE48 */
   /* White #FFFFFF */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .CHI {
   /* Red #C8102E */
   /* White #FFFFFF */
   /* Black #010101 */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .COL {
   background-image: url('../src/images/COL.jpg');
@@ -115,72 +150,142 @@ h1 {
   /* Victory Green #00823E */
   /* Black #010101 */
   /* Gray #A2AAAD*/
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .DET {
   /* Red #C8102E */
   /* White #FFFFFF */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .EDM {
   /* Royal Blue #003087 */
   /* Orange #FC4C02 */
   /* White #FFFFFF */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .FLA {
   /* Red #C8102E */
   /* Blue #041E42 */
   /* Gold #B9975B */
   /* White #FFFFFF */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .LAK {
   /* Black #010101 */
   /* White #FFFFFF */
   /* Gray #A2AAAD*/
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .MIN {
   /* Forest Green #0E4431 */
   /* Iron Range Red #AC1A2E */
   /* Gold #B9975B */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .MTL {
   /* Red #C8102E */
   /* White #FFFFFF */
   /* Blue #001E62 */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .NJD {
   /*  Red #CC0000 */
   /* Black #010101 */
   /* White #FFFFFF */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .NSH {
   /* Gold #FFB81C */
   /* Navy Blue #041E42 */
   /* White #FFFFFF */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .NYI {
   /* Blue #00468B */
   /* Orange #F26924 */
   /* White #FFFFFF */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .NYR {
   /* Blue #0033A0 */
   /* Red #C8102E */
   /* White #FFFFFF */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .OTT {
   /* Black #010101 */
   /* Red #C8102E */
   /* Gold #B9975B */
   /* White #FFFFFF */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .PHI {
   /* Burnt Orange #D24303 */
   /* Black #010101 */
   /* White #FFFFF */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .PIT {
   /* Black #010101 */
   /* Gold #FFB81C */
   /* White #FFFFFF */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .SEA {
   /* Deep Sea Blue #001F25 */
@@ -197,26 +302,51 @@ h1 {
   /* Deep Pacific Teal #006772 */
   /* Black #010101 */
   /*  Burnt Orange #E57200 */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .STL {
   /* Royal Blue # */
   /* Gold #FFB81C */
   /* Navy Blue #041E42 */
   /* White #FFFFFF */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .TBL {
   /* Blue #00205B */
   /* White #FFFFFF */
   /* Black #000000 */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .TOR {
   /* Blue #00205B */
   /* White #FFFFFF */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .VAN {
   /* Blue #00205B */
   /* Green #007E3A */
   /* White #FFFFFF */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .VGK {
   /* Steel Grey # */
@@ -234,11 +364,21 @@ h1 {
   /* Aviator Blue #004A98 */
   /* Silver #A2AAAD */
   /* Red #A6192E */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 .WSH {
   /* Red #C8102E */
   /* White #FFFFFF */
   /* Blue #041E42 */
+  background-image: url('../src/images/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 }
 
 button {

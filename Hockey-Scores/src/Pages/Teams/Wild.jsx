@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 export default function Wild() {
   //Central teams would call them Mild but they have their moments
   return (
-    <div>
+    <div className='MIN'>
       <Card style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>
