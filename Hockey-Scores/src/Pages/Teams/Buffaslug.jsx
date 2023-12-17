@@ -18,21 +18,6 @@ export default function Buffaslug() {
           </Card.Text>
           {/* Socials */}
           {renderSocialLinks(team)}
-          {/* <Card.Link href='https://www.facebook.com/BuffaloSabres' rel='noreferrer' target="_blank">
-                <FontAwesomeIcon icon={faFacebook} />
-              </Card.Link>
-              <Card.Link href='https://www.instagram.com/buffalosabres' rel="noreferrer" target="_blank">
-                <FontAwesomeIcon icon={faInstagram} />
-              </Card.Link>
-              <Card.Link href='https://www.tiktok.com/@buffalosabres' rel='noreferrer' target="_blank">
-                <FontAwesomeIcon icon={faTiktok} />
-              </Card.Link>
-              <Card.Link href='https://www.youtube.com/user/SabresSocialMedia' rel='noreferrer' target='_blank'>
-                <FontAwesomeIcon icon={faYoutube} />
-              </Card.Link>
-              <Card.Link href="https://twitter.com/BuffaloSabres" rel="noreferrer" target="_blank">
-                <FontAwesomeIcon icon={faXTwitter} />
-              </Card.Link> */}
         </Card.Body>
       </Card>
            ))}

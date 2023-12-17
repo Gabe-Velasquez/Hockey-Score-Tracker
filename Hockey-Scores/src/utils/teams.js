@@ -5,6 +5,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Arizona Coyotes",
@@ -12,6 +13,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Boston Bruins",
@@ -19,6 +21,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
     {
         team: "Buffalo Sabres",
@@ -26,6 +29,7 @@ const teams = [
         instagram: "https://www.instagram.com/buffalosabres",
         tiktok: "https://www.tiktok.com/@buffalosabres",
         youtube: "https://www.youtube.com/user/SabresSocialMedia",
+        twitter:""
       },
       {
         team: "Calgary Flames",
@@ -33,6 +37,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Carolina Hurricanes",
@@ -40,6 +45,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Chicago Blackhawks",
@@ -47,6 +53,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Colorado Avalanche",
@@ -54,6 +61,7 @@ const teams = [
         instagram: "https://www.instagram.com/coloradoavalanche/",
         tiktok: "https://www.tiktok.com/@coloradoavalanche",
         youtube: "https://www.youtube.com/user/AvalancheNHL",
+        twitter:""
       },
       {
         team: "Columbus Blue Jackets",
@@ -61,6 +69,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Dallas Stars",
@@ -68,6 +77,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Detroit Red Wings",
@@ -75,6 +85,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Edmonton Oilers",
@@ -82,6 +93,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Florida Panthers",
@@ -89,6 +101,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Los Angeles Kings",
@@ -96,6 +109,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Minnesota Wild",
@@ -103,6 +117,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Montreal Canadiens",
@@ -110,6 +125,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Nashville Predators",
@@ -117,6 +133,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "New Jersey Devils",
@@ -124,6 +141,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "New York Islanders",
@@ -131,6 +149,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "New York Rangers",
@@ -138,6 +157,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Ottawa Senators",
@@ -145,6 +165,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Philadelphia Flyers",
@@ -152,6 +173,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Pittsburgh Penguins",
@@ -159,6 +181,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "San Jose Sharks",
@@ -166,13 +189,15 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Seattle Kraken",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
+        facebook: "https://www.facebook.com/seattlekraken",
+        instagram: "https://www.instagram.com/seattlekraken/",
+        tiktok: "https://www.tiktok.com/@seattlekraken",
+        youtube: "https://www.youtube.com/SeattleKraken",
+        twitter:"https://twitter.com/SeattleKraken"
       },
       {
         team: "Tampa Bay Lightning",
@@ -180,6 +205,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Vancouver Canucks",
@@ -187,6 +213,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Vegas Golden Knights",
@@ -194,6 +221,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Washington Capitals",
@@ -201,6 +229,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
       {
         team: "Winnepeg Jets",
@@ -208,6 +237,7 @@ const teams = [
         instagram: "",
         tiktok: "",
         youtube: "",
+        twitter:""
       },
 ];
 
