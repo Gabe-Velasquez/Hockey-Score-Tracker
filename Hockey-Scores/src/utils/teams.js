@@ -45,7 +45,7 @@ const teams = [
         instagram: "https://www.instagram.com/canes/",
         tiktok: "https://www.tiktok.com/@canes",
         youtube: "",
-        twitter:""
+        twitter:"https://twitter.com/Canes"
       },
       {
         team: "Chicago Blackhawks",
@@ -81,115 +81,115 @@ const teams = [
       },
       {
         team: "Detroit Red Wings",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/DETROITREDWINGS/",
+        instagram: "https://www.instagram.com/DetroitRedWings/index/",
+        tiktok: "https://www.tiktok.com/@detroitredwings",
+        youtube: "https://www.youtube.com/user/OfficialRedWings",
+        twitter:"https://twitter.com/DetroitRedWings"
       },
       {
         team: "Edmonton Oilers",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/Oilers.NHL",
+        instagram: "https://www.instagram.com/edmontonoilers",
+        tiktok: "https://www.tiktok.com/@edmontonoilers",
+        youtube: "https://www.youtube.com/user/OilersonDemand",
+        twitter:"https://twitter.com/EdmontonOilers"
       },
       {
         team: "Florida Panthers",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/flapanthers",
+        instagram: "https://www.instagram.com/flapanthers",
+        tiktok: "https://www.tiktok.com/@flapanthers",
+        youtube: "https://www.youtube.com/channel/UCSSc4wVk6telelb58RrLYdg",
+        twitter:"https://twitter.com/flapanthers"
       },
       {
         team: "Los Angeles Kings",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://web.facebook.com/LAKings",
+        instagram: "https://www.instagram.com/lakings",
+        tiktok: "https://www.tiktok.com/@lakings",
+        youtube: "https://www.youtube.com/LAKings",
+        twitter:"https://twitter.com/LAKings"
       },
       {
         team: "Minnesota Wild",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/minnesotawild",
+        instagram: "https://www.instagram.com/minnesotawild",
+        tiktok: "https://www.tiktok.com/@mnwild",
+        youtube: "https://www.youtube.com/channel/UCQRr7SxnnndFYuuRUtOIEnA/featured",
+        twitter:"https://twitter.com/mnwild"
       },
       {
         team: "Montreal Canadiens",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/canadiensmtl",
+        instagram: "https://www.instagram.com/canadiensmtl",
+        tiktok: "https://www.tiktok.com/@canadiensmtl",
+        youtube: "https://www.youtube.com/@canadiensmtl/featured",
+        twitter:"https://twitter.com/CanadiensMTL"
       },
       {
         team: "Nashville Predators",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/nashvillepredators/",
+        instagram: "https://www.instagram.com/predsnhl",
+        tiktok: "https://www.tiktok.com/@predsnhl",
+        youtube: "https://www.youtube.com/c/nashvillepredatorsnhl",
+        twitter:"https://twitter.com/predsnhl"
       },
       {
         team: "New Jersey Devils",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/NJDevils/",
+        instagram: "https://www.instagram.com/njdevils/",
+        tiktok: "https://www.tiktok.com/@njdevils",
+        youtube: "https://www.youtube.com/@njdevils",
+        twitter:"https://twitter.com/njdevils"
       },
       {
         team: "New York Islanders",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/NEWYORKISLANDERS/",
+        instagram: "https://www.instagram.com/ny_islanders/index/",
+        tiktok: "https://www.tiktok.com/@nyislanders?lang=en",
+        youtube: "https://www.youtube.com/@islanderstv",
+        twitter:"https://twitter.com/NYIslanders"
       },
       {
         team: "New York Rangers",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/nyrangers",
+        instagram: "https://www.instagram.com/nyrangers/?hl=en",
+        tiktok: "https://www.tiktok.com/@nyrangersofficial",
+        youtube: "https://www.youtube.com/@nyrangers/featured",
+        twitter:"https://twitter.com/NYRangers"
       },
       {
         team: "Ottawa Senators",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/ottawasenators",
+        instagram: "https://www.instagram.com/senators/",
+        tiktok: "https://www.tiktok.com/@ottawa.senators",
+        youtube: "https://www.youtube.com/@OttawaSenatorsNHL",
+        twitter:"https://twitter.com/Senators"
       },
       {
         team: "Philadelphia Flyers",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/philadelphiaflyers",
+        instagram: "https://www.instagram.com/philadelphiaflyers/",
+        tiktok: "https://www.tiktok.com/@nhlflyers?lang=en",
+        youtube: "https://www.youtube.com/@PhiladelphiaFlyers",
+        twitter:"https://twitter.com/NHLFlyers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
       },
       {
         team: "Pittsburgh Penguins",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/penguins",
+        instagram: "https://www.instagram.com/penguins/",
+        tiktok: "https://www.tiktok.com/@penguins",
+        youtube: "https://www.youtube.com/penguins",
+        twitter:"https://twitter.com/penguins"
       },
       {
         team: "San Jose Sharks",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/SanJoseSharks/",
+        instagram: "https://www.instagram.com/SanJoseSharks/index/",
+        tiktok: "https://www.tiktok.com/@sanjosesharks",
+        youtube: "https://www.youtube.com/sanjosesharks",
+        twitter:"https://twitter.com/SanJoseSharks"
       },
       {
         team: "Seattle Kraken",
@@ -201,43 +201,43 @@ const teams = [
       },
       {
         team: "Tampa Bay Lightning",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/lightningnhl/",
+        instagram: "https://www.instagram.com/tblightning/index/",
+        tiktok: "https://www.tiktok.com/@tblightning?lang=en",
+        youtube: "https://www.youtube.com/channel/UCgC7zVCS9UJg-ziFINnwzyA",
+        twitter:"https://twitter.com/TBLightning"
       },
       {
         team: "Vancouver Canucks",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/Canucks",
+        instagram: "https://www.instagram.com/canucks/",
+        tiktok: "https://www.tiktok.com/@canucks",
+        youtube: "https://www.youtube.com/canucks",
+        twitter:"https://twitter.com/Canucks"
       },
       {
         team: "Vegas Golden Knights",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/vegasgoldenknights",
+        instagram: "https://www.instagram.com/vegasgoldenknights/?hl=en",
+        tiktok: "https://www.tiktok.com/@vegasgoldenknights",
+        youtube: "https://www.youtube.com/channel/UCyUzGmp1kAmlkNUzAqW9xJw",
+        twitter:"https://twitter.com/GoldenKnights"
       },
       {
         team: "Washington Capitals",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/Capitals",
+        instagram: "https://www.instagram.com/capitals/",
+        tiktok: "https://www.tiktok.com/@capitals",
+        youtube: "https://www.youtube.com/capitals",
+        twitter:"https://twitter.com/capitals"
       },
       {
-        team: "Winnepeg Jets",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        team: "Winnipeg Jets",
+        facebook: "https://www.facebook.com/nhljets",
+        instagram: "https://www.instagram.com/NHLJets/",
+        tiktok: "https://www.tiktok.com/@nhljets",
+        youtube: "https://www.youtube.com/NHLJets",
+        twitter:"https://twitter.com/NHLJets"
       },
 ];
 
