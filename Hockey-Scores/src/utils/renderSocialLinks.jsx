@@ -10,21 +10,31 @@ import {
 
 const renderSocialLinks = (team) => (
   <>
-    <Card.Link href={team.facebook} rel='noreferrer' target='_blank'>
-      <FontAwesomeIcon icon={faFacebook} />
-    </Card.Link>
-    <Card.Link href={team.instagram} rel='noreferrer' target='_blank'>
-      <FontAwesomeIcon icon={faInstagram} />
-    </Card.Link>
-    <Card.Link href={team.tiktok} rel='noreferrer' target='_blank'>
-      <FontAwesomeIcon icon={faTiktok} />
-    </Card.Link>
-    <Card.Link href={team.youtube} rel='noreferrer' target='_blank'>
-      <FontAwesomeIcon icon={faYoutube} />
-    </Card.Link>
-    <Card.Link href={team.twitter} rel='noreferrer' target='_blank'>
-      <FontAwesomeIcon icon={faXTwitter} />
-    </Card.Link>
+    {team.facebook && (
+      <Card.Link href={team.facebook} rel='noreferrer' target='_blank'>
+        <FontAwesomeIcon icon={faFacebook} />
+      </Card.Link>
+    )}
+    {team.instagram && (
+      <Card.Link href={team.instagram} rel='noreferrer' target='_blank'>
+        <FontAwesomeIcon icon={faInstagram} />
+      </Card.Link>
+    )}
+    {team.tiktok && (
+      <Card.Link href={team.tiktok} rel='noreferrer' target='_blank'>
+        <FontAwesomeIcon icon={faTiktok} />
+      </Card.Link>
+    )}
+    {team.youtube && (
+      <Card.Link href={team.youtube} rel='noreferrer' target='_blank'>
+        <FontAwesomeIcon icon={faYoutube} />
+      </Card.Link>
+    )}
+    {team.twitter && (
+      <Card.Link href={team.twitter} rel='noreferrer' target='_blank'>
+        <FontAwesomeIcon icon={faXTwitter} />
+      </Card.Link>
+    )}
   </>
 );
 
