@@ -1,9 +1,13 @@
 import Card from 'react-bootstrap/Card';
+import teams from '../../utils/teams'
+import renderSocialLinks from '../../utils/renderSocialLinks';
 export default function Sens() {
   // Not to be confused by the Bic product but those tiny birds with tuxedos
+  const ottawaSenators=teams.filter((team)=>team.team==='Ottawa Senators');
   return (
     <div className='OTT'>
-      <Card style={{ width: '18rem' }} className='Team-Card'>
+      {ottawaSenators.map((team)=>(
+      <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>
           <Card.Subtitle className='mb-2 text-muted'>
@@ -14,23 +18,10 @@ export default function Sens() {
             bulk of the content.
           </Card.Text>
           {/* Socials */}
-          {/* <Card.Link href='' rel='noreferrer' target="_blank">
-                <FontAwesomeIcon icon={faFacebook} />
-              </Card.Link>
-              <Card.Link href='https://www.instagram.com/seattlekraken/' rel="noreferrer" target="_blank">
-                <FontAwesomeIcon icon={faInstagram} />
-              </Card.Link>
-              <Card.Link href='' rel='noreferrer' target="_blank">
-                <FontAwesomeIcon icon={faTiktok} />
-              </Card.Link>
-              <Card.Link href='' rel='noreferrer' target='_blank'>
-                <FontAwesomeIcon icon={faYoutube} />
-              </Card.Link>
-              <Card.Link href="https://twitter.com/SeattleKraken" rel="noreferrer" target="_blank">
-                <FontAwesomeIcon icon={faXTwitter} />
-              </Card.Link> */}
+          {renderSocialLinks(team)}
         </Card.Body>
       </Card>
+      ))}
     </div>
   );
 }
