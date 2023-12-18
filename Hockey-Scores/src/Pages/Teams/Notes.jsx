@@ -1,4 +1,5 @@
 import Card  from 'react-bootstrap/Card';
+import renderSocialLinks from '../../utils/renderSocialLinks';
 export default function Notes(){
     //The Blue Notes... 9 hours from West Virginia but they always sing this song.... 
     return(
@@ -12,21 +13,7 @@ export default function Notes(){
             bulk of the content.
           </Card.Text>
           {/* Socials */}
-          {/* <Card.Link href='' rel='noreferrer' target="_blank">
-                <FontAwesomeIcon icon={faFacebook} />
-              </Card.Link>
-              <Card.Link href='https://www.instagram.com/seattlekraken/' rel="noreferrer" target="_blank">
-                <FontAwesomeIcon icon={faInstagram} />
-              </Card.Link>
-              <Card.Link href='' rel='noreferrer' target="_blank">
-                <FontAwesomeIcon icon={faTiktok} />
-              </Card.Link>
-              <Card.Link href='' rel='noreferrer' target='_blank'>
-                <FontAwesomeIcon icon={faYoutube} />
-              </Card.Link>
-              <Card.Link href="https://twitter.com/SeattleKraken" rel="noreferrer" target="_blank">
-                <FontAwesomeIcon icon={faXTwitter} />
-              </Card.Link> */}
+          {renderSocialLinks(team)}
         </Card.Body>
       </Card>
       </div>
