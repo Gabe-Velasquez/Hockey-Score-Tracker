@@ -1,27 +1,27 @@
 const teams = [
     {
         team: "Anaheim Ducks",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/anaheimducks",
+        instagram: "https://www.instagram.com/anaheimducks",
+        tiktok: "https://www.tiktok.com/@anaheimducks",
+        youtube: "https://www.youtube.com/c/AnaheimDucksOfficial",
+        twitter:"https://twitter.com/AnaheimDucks"
       },
       {
         team: "Arizona Coyotes",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/ArizonaCoyotes",
+        instagram: "https://www.instagram.com/arizonacoyotes",
+        tiktok: "https://www.tiktok.com/@nhlcoyotes",
+        youtube: "https://www.youtube.com/c/ArizonaCoyotes",
+        twitter:"https://twitter.com/ArizonaCoyotes"
       },
       {
         team: "Boston Bruins",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/NHLBruins",
+        instagram: "https://www.instagram.com/nhlbruins",
+        tiktok: "https://www.tiktok.com/@nhlbruins",
+        youtube: "https://www.youtube.com/user/TheNHLBruins",
+        twitter:"https://twitter.com/NHLBruins"
       },
     {
         team: "Buffalo Sabres",
@@ -29,31 +29,31 @@ const teams = [
         instagram: "https://www.instagram.com/buffalosabres",
         tiktok: "https://www.tiktok.com/@buffalosabres",
         youtube: "https://www.youtube.com/user/SabresSocialMedia",
-        twitter:""
+        twitter:"https://twitter.com/BuffaloSabres"
       },
       {
         team: "Calgary Flames",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/NHLFlames",
+        instagram: "https://www.instagram.com/nhlflames",
+        tiktok: "https://www.tiktok.com/@nhlflames",
+        youtube: "https://www.youtube.com/channel/UCFQqBMe3HSg6ltl09MlLHcQ",
+        twitter:"https://twitter.com/NHLFlames"
       },
       {
         team: "Carolina Hurricanes",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
+        facebook: "https://www.facebook.com/Hurricanes",
+        instagram: "https://www.instagram.com/canes/",
+        tiktok: "https://www.tiktok.com/@canes",
         youtube: "",
         twitter:""
       },
       {
         team: "Chicago Blackhawks",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/nhlblackhawks",
+        instagram: "https://www.instagram.com/NHLBlackhawks",
+        tiktok: "https://www.tiktok.com/@nhlblackhawks",
+        youtube: "https://www.youtube.com/blackhawks",
+        twitter:"https://twitter.com/NHLBlackhawks"
       },
       {
         team: "Colorado Avalanche",
@@ -61,23 +61,23 @@ const teams = [
         instagram: "https://www.instagram.com/coloradoavalanche/",
         tiktok: "https://www.tiktok.com/@coloradoavalanche",
         youtube: "https://www.youtube.com/user/AvalancheNHL",
-        twitter:""
+        twitter:"https://twitter.com/Avalanche"
       },
       {
         team: "Columbus Blue Jackets",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/bluejacketsnhl",
+        instagram: "https://www.instagram.com/bluejacketsnhl",
+        tiktok: "https://www.tiktok.com/@bluejacketsnhl",
+        youtube: "https://www.youtube.com/user/BlueJacketsNHL",
+        twitter:"https://twitter.com/BlueJacketsNHL"
       },
       {
         team: "Dallas Stars",
-        facebook: "",
-        instagram: "",
-        tiktok: "",
-        youtube: "",
-        twitter:""
+        facebook: "https://www.facebook.com/DallasStars",
+        instagram: "https://www.instagram.com/dallasstars",
+        tiktok: "https://www.tiktok.com/@dallasstars",
+        youtube: "https://www.youtube.com/dallasstars",
+        twitter:"https://twitter.com/dallasstars"
       },
       {
         team: "Detroit Red Wings",
