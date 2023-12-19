@@ -1,6 +1,7 @@
 const teams = [
     {
         team: "Anaheim Ducks",
+        teamStyle: "ANA",
         facebook: "https://www.facebook.com/anaheimducks",
         instagram: "https://www.instagram.com/anaheimducks",
         tiktok: "https://www.tiktok.com/@anaheimducks",
@@ -9,6 +10,7 @@ const teams = [
       },
       {
         team: "Arizona Coyotes",
+        teamStyle: "ARI",
         facebook: "https://www.facebook.com/ArizonaCoyotes",
         instagram: "https://www.instagram.com/arizonacoyotes",
         tiktok: "https://www.tiktok.com/@nhlcoyotes",
@@ -17,6 +19,7 @@ const teams = [
       },
       {
         team: "Boston Bruins",
+        teamStyle: "BOS",
         facebook: "https://www.facebook.com/NHLBruins",
         instagram: "https://www.instagram.com/nhlbruins",
         tiktok: "https://www.tiktok.com/@nhlbruins",
@@ -25,6 +28,7 @@ const teams = [
       },
     {
         team: "Buffalo Sabres",
+        teamStyle: "BUF",
         facebook: "https://www.facebook.com/BuffaloSabres",
         instagram: "https://www.instagram.com/buffalosabres",
         tiktok: "https://www.tiktok.com/@buffalosabres",
@@ -33,6 +37,7 @@ const teams = [
       },
       {
         team: "Calgary Flames",
+        teamStyle: "CGY",
         facebook: "https://www.facebook.com/NHLFlames",
         instagram: "https://www.instagram.com/nhlflames",
         tiktok: "https://www.tiktok.com/@nhlflames",
@@ -41,6 +46,7 @@ const teams = [
       },
       {
         team: "Carolina Hurricanes",
+        teamStyle: "CAR",
         facebook: "https://www.facebook.com/Hurricanes",
         instagram: "https://www.instagram.com/canes/",
         tiktok: "https://www.tiktok.com/@canes",
@@ -49,6 +55,7 @@ const teams = [
       },
       {
         team: "Chicago Blackhawks",
+        teamStyle: "CHI",
         facebook: "https://www.facebook.com/nhlblackhawks",
         instagram: "https://www.instagram.com/NHLBlackhawks",
         tiktok: "https://www.tiktok.com/@nhlblackhawks",
@@ -57,7 +64,7 @@ const teams = [
       },
       {
         team: "Colorado Avalanche",
-        teamStyle:"COL",
+        teamStyle: "COL",
         facebook: "https://www.facebook.com/coloradoavalanche",
         instagram: "https://www.instagram.com/coloradoavalanche/",
         tiktok: "https://www.tiktok.com/@coloradoavalanche",
@@ -66,6 +73,7 @@ const teams = [
       },
       {
         team: "Columbus Blue Jackets",
+        teamStyle:"CBJ",
         facebook: "https://www.facebook.com/bluejacketsnhl",
         instagram: "https://www.instagram.com/bluejacketsnhl",
         tiktok: "https://www.tiktok.com/@bluejacketsnhl",
@@ -74,6 +82,7 @@ const teams = [
       },
       {
         team: "Dallas Stars",
+        teamStyle: "DAL",
         facebook: "https://www.facebook.com/DallasStars",
         instagram: "https://www.instagram.com/dallasstars",
         tiktok: "https://www.tiktok.com/@dallasstars",
@@ -82,6 +91,7 @@ const teams = [
       },
       {
         team: "Detroit Red Wings",
+        teamStyle: "DET",
         facebook: "https://www.facebook.com/DETROITREDWINGS/",
         instagram: "https://www.instagram.com/DetroitRedWings/index/",
         tiktok: "https://www.tiktok.com/@detroitredwings",
@@ -90,6 +100,7 @@ const teams = [
       },
       {
         team: "Edmonton Oilers",
+        teamStyle: "EDM",
         facebook: "https://www.facebook.com/Oilers.NHL",
         instagram: "https://www.instagram.com/edmontonoilers",
         tiktok: "https://www.tiktok.com/@edmontonoilers",
@@ -98,6 +109,7 @@ const teams = [
       },
       {
         team: "Florida Panthers",
+        teamStyle: "FLA",
         facebook: "https://www.facebook.com/flapanthers",
         instagram: "https://www.instagram.com/flapanthers",
         tiktok: "https://www.tiktok.com/@flapanthers",
@@ -106,6 +118,7 @@ const teams = [
       },
       {
         team: "Los Angeles Kings",
+        teamStyle: "LAK",
         facebook: "https://web.facebook.com/LAKings",
         instagram: "https://www.instagram.com/lakings",
         tiktok: "https://www.tiktok.com/@lakings",
@@ -114,6 +127,7 @@ const teams = [
       },
       {
         team: "Minnesota Wild",
+        teamStyle: "MIN",
         facebook: "https://www.facebook.com/minnesotawild",
         instagram: "https://www.instagram.com/minnesotawild",
         tiktok: "https://www.tiktok.com/@mnwild",
@@ -122,6 +136,7 @@ const teams = [
       },
       {
         team: "Montreal Canadiens",
+        teamStyle: "MTL",
         facebook: "https://www.facebook.com/canadiensmtl",
         instagram: "https://www.instagram.com/canadiensmtl",
         tiktok: "https://www.tiktok.com/@canadiensmtl",
@@ -130,6 +145,7 @@ const teams = [
       },
       {
         team: "Nashville Predators",
+        teamStyle: "NSH",
         facebook: "https://www.facebook.com/nashvillepredators/",
         instagram: "https://www.instagram.com/predsnhl",
         tiktok: "https://www.tiktok.com/@predsnhl",
@@ -138,6 +154,7 @@ const teams = [
       },
       {
         team: "New Jersey Devils",
+        teamStyle: "NJD",
         facebook: "https://www.facebook.com/NJDevils/",
         instagram: "https://www.instagram.com/njdevils/",
         tiktok: "https://www.tiktok.com/@njdevils",
@@ -146,6 +163,7 @@ const teams = [
       },
       {
         team: "New York Islanders",
+        teamStyle: "NYI",
         facebook: "https://www.facebook.com/NEWYORKISLANDERS/",
         instagram: "https://www.instagram.com/ny_islanders/index/",
         tiktok: "https://www.tiktok.com/@nyislanders?lang=en",
@@ -154,6 +172,7 @@ const teams = [
       },
       {
         team: "New York Rangers",
+        teamStyle: "NYR",
         facebook: "https://www.facebook.com/nyrangers",
         instagram: "https://www.instagram.com/nyrangers/?hl=en",
         tiktok: "https://www.tiktok.com/@nyrangersofficial",
@@ -162,6 +181,7 @@ const teams = [
       },
       {
         team: "Ottawa Senators",
+        teamStyle: "OTT",
         facebook: "https://www.facebook.com/ottawasenators",
         instagram: "https://www.instagram.com/senators/",
         tiktok: "https://www.tiktok.com/@ottawa.senators",
@@ -170,6 +190,7 @@ const teams = [
       },
       {
         team: "Philadelphia Flyers",
+        teamStyle: "PHI",
         facebook: "https://www.facebook.com/philadelphiaflyers",
         instagram: "https://www.instagram.com/philadelphiaflyers/",
         tiktok: "https://www.tiktok.com/@nhlflyers?lang=en",
@@ -178,6 +199,7 @@ const teams = [
       },
       {
         team: "Pittsburgh Penguins",
+        teamStyle: "PIT",
         facebook: "https://www.facebook.com/penguins",
         instagram: "https://www.instagram.com/penguins/",
         tiktok: "https://www.tiktok.com/@penguins",
@@ -186,6 +208,7 @@ const teams = [
       },
       {
         team: "San Jose Sharks",
+        teamStyle: "SJS",
         facebook: "https://www.facebook.com/SanJoseSharks/",
         instagram: "https://www.instagram.com/SanJoseSharks/index/",
         tiktok: "https://www.tiktok.com/@sanjosesharks",
@@ -194,6 +217,7 @@ const teams = [
       },
       {
         team: "Seattle Kraken",
+        teamStyle: "SEA",
         facebook: "https://www.facebook.com/seattlekraken",
         instagram: "https://www.instagram.com/seattlekraken/",
         tiktok: "https://www.tiktok.com/@seattlekraken",
@@ -202,6 +226,7 @@ const teams = [
       },
       {
         team: "Tampa Bay Lightning",
+        teamStyle: "TBL",
         facebook: "https://www.facebook.com/lightningnhl/",
         instagram: "https://www.instagram.com/tblightning/index/",
         tiktok: "https://www.tiktok.com/@tblightning?lang=en",
@@ -210,6 +235,7 @@ const teams = [
       },
       {
         team: "Vancouver Canucks",
+        teamStyle: "VAN",
         facebook: "https://www.facebook.com/Canucks",
         instagram: "https://www.instagram.com/canucks/",
         tiktok: "https://www.tiktok.com/@canucks",
@@ -218,6 +244,7 @@ const teams = [
       },
       {
         team: "Vegas Golden Knights",
+        teamStyle: "VGK",
         facebook: "https://www.facebook.com/vegasgoldenknights",
         instagram: "https://www.instagram.com/vegasgoldenknights/?hl=en",
         tiktok: "https://www.tiktok.com/@vegasgoldenknights",
@@ -226,6 +253,7 @@ const teams = [
       },
       {
         team: "Washington Capitals",
+        teamStyle: "WSH",
         facebook: "https://www.facebook.com/Capitals",
         instagram: "https://www.instagram.com/capitals/",
         tiktok: "https://www.tiktok.com/@capitals",
@@ -234,6 +262,7 @@ const teams = [
       },
       {
         team: "Winnipeg Jets",
+        teamStyle: "WPG",
         facebook: "https://www.facebook.com/nhljets",
         instagram: "https://www.instagram.com/NHLJets/",
         tiktok: "https://www.tiktok.com/@nhljets",
