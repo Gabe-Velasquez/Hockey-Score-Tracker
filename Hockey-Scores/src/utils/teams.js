@@ -57,6 +57,7 @@ const teams = [
       },
       {
         team: "Colorado Avalanche",
+        teamStyle:"COL",
         facebook: "https://www.facebook.com/coloradoavalanche",
         instagram: "https://www.instagram.com/coloradoavalanche/",
         tiktok: "https://www.tiktok.com/@coloradoavalanche",

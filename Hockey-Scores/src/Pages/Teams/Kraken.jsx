@@ -1,27 +1,27 @@
-import Card  from 'react-bootstrap/Card';
+import Card from 'react-bootstrap/Card';
 import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 
-export default function Kraken(){
-  const seattleKraken=teams.filter((team)=>team.team==='Seattle Kraken');
-    return(
-      <div className='SEA'>
-        {seattleKraken.map((team)=>(
-        <div key={team.team} className='team-container'>
-          <Card  style={{ width: '50rem' }} className='Team-Card'>
-            <Card.Body>
-              <Card.Title>Welcome {team.team} FANS!!!</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the content.
-              </Card.Text>
-              {/* Socials */}
-              {renderSocialLinks(team)}
-            </Card.Body>
-          </Card>
-        </div>
-        ))}
+export default function Kraken() {
+  const seattleKraken = teams.filter((team) => team.team === 'Seattle Kraken');
+  return seattleKraken.map((team) => (
+    <div key={team.team} className={team.teamStyle}>
+      <div key={team.team} className='team-container'>
+        <Card style={{ width: '50rem' }} className='Team-Card'>
+          <Card.Body>
+            <Card.Title>Welcome {team.team} FANS!!!</Card.Title>
+            <Card.Subtitle className='mb-2 text-muted'>
+              Card Subtitle
+            </Card.Subtitle>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the content.
+            </Card.Text>
+            {/* Socials */}
+            {renderSocialLinks(team)}
+          </Card.Body>
+        </Card>
       </div>
-    )
+    </div>
+  ));
 }

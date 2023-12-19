@@ -2,10 +2,9 @@ import Card from 'react-bootstrap/Card';
 import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 export default function Monarchs() {
-  const laKings=teams.filter((team)=>team.team==='Los Angeles Kings');
-  return (
-    <div className='LAK'>
-      {laKings.map((team)=>(
+  const laKings = teams.filter((team) => team.team === 'Los Angeles Kings');
+  return laKings.map((team) => (
+    <div key={team.team} className={team.teamStyle}>
       <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome {team.team} FANS!!!</Card.Title>
@@ -20,7 +19,6 @@ export default function Monarchs() {
           {renderSocialLinks(team)}
         </Card.Body>
       </Card>
-      ))}
     </div>
-  );
+  ));
 }

@@ -3,10 +3,9 @@ import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 export default function Jets() {
   // YOOOUUURRRRR PHEONIX... i mean, WINNIPEG JETS!
-  const winnipegJets=teams.filter((team)=>team.team==='Winnipeg Jets');
-  return (
-    <div className='WPG'>
-      {winnipegJets.map((team)=>(
+  const winnipegJets = teams.filter((team) => team.team === 'Winnipeg Jets');
+  return winnipegJets.map((team) => (
+    <div key={team.team} className={team.teamStyle}>
       <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome {team.team} FANS!!!</Card.Title>
@@ -21,7 +20,6 @@ export default function Jets() {
           {renderSocialLinks(teams)}
         </Card.Body>
       </Card>
-      ))}
     </div>
-  );
+  ));
 }

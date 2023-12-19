@@ -1,16 +1,19 @@
-import Card  from 'react-bootstrap/Card';
-import teams from '../../utils/teams'
+import Card from 'react-bootstrap/Card';
+import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
-export default function Preds(){
-    // Smashville or Trashville are acceptable here depending which side you root for
-    const nashvillePredators=teams.filter((team)=>team.team==='Nashville Predators');
-    return(
-      <div className='NSH'>
-        {nashvillePredators.map((team)=>(
-        <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
+export default function Preds() {
+  // Smashville or Trashville are acceptable here depending which side you root for
+  const nashvillePredators = teams.filter(
+    (team) => team.team === 'Nashville Predators'
+  );
+  return nashvillePredators.map((team) => (
+    <div key={team.team} className={team.teamStyle}>
+      <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome {team.team} FANS!!!</Card.Title>
-          <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+          <Card.Subtitle className='mb-2 text-muted'>
+            Card Subtitle
+          </Card.Subtitle>
           <Card.Text>
             Some quick example text to build on the card title and make up the
             bulk of the content.
@@ -19,7 +22,6 @@ export default function Preds(){
           {renderSocialLinks(team)}
         </Card.Body>
       </Card>
-      ))}
-      </div>
-    )
+    </div>
+  ));
 }

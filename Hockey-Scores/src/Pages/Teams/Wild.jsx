@@ -1,13 +1,12 @@
 import Card from 'react-bootstrap/Card';
-import teams from '../../utils/teams'
+import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 export default function Wild() {
   //Central teams would call them Mild but they have their moments
-  const minnesotaWild=teams.filter((team)=>team.team==='Minnesota Wild');
-  return (
-    <div className='MIN'>
-      {minnesotaWild.map((team)=>(
-      <Card key={team.team}style={{ width: '18rem' }} className='Team-Card'>
+  const minnesotaWild = teams.filter((team) => team.team === 'Minnesota Wild');
+  return minnesotaWild.map((team) => (
+    <div key={team.team} className={team.teamStyle}>
+      <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome {team.team} FANS!!!</Card.Title>
           <Card.Subtitle className='mb-2 text-muted'>
@@ -21,7 +20,6 @@ export default function Wild() {
           {renderSocialLinks(team)}
         </Card.Body>
       </Card>
-      ))}
     </div>
-  );
+  ));
 }

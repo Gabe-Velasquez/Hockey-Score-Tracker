@@ -1,12 +1,13 @@
 import Card from 'react-bootstrap/Card';
-import teams from '../../utils/teams'
+import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 export default function Cats() {
   // The underdog of the 2023 playoffs! Meow!!
-  const floridaPanthers = teams.filter((team)=>team.team==='Florida Panthers');
-  return (
-    <div className='FLA'>
-      {floridaPanthers.map((team)=>(
+  const floridaPanthers = teams.filter(
+    (team) => team.team === 'Florida Panthers'
+  );
+  return floridaPanthers.map((team) => (
+    <div key={team.team} className={team.teamStyle}>
       <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome {team.team} FANS!!! </Card.Title>
@@ -21,7 +22,6 @@ export default function Cats() {
           {renderSocialLinks(team)}
         </Card.Body>
       </Card>
-      ))}
     </div>
-  );
+  ));
 }

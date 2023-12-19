@@ -3,10 +3,11 @@ import renderSocialLinks from '../../utils/renderSocialLinks';
 import teams from '../../utils/teams';
 
 export default function Habs() {
-  const montrealCanadiens = teams.filter((team)=> team.team==="Montreal Canadiens");
-  return (
-    <div className='MTL'>
-      {montrealCanadiens.map((team)=>(
+  const montrealCanadiens = teams.filter(
+    (team) => team.team === 'Montreal Canadiens'
+  );
+  return montrealCanadiens.map((team) => (
+    <div key={team.team} className={team.teamStyle}>
       <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome {team.team} FANS!!!</Card.Title>
@@ -21,7 +22,6 @@ export default function Habs() {
           {renderSocialLinks(team)}
         </Card.Body>
       </Card>
-      ))}
     </div>
-  );
+  ));
 }

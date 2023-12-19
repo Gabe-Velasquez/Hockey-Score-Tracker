@@ -1,12 +1,13 @@
 import Card from 'react-bootstrap/Card';
-import teams from '../../utils/teams'
+import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 export default function Wings() {
   // Another original six team
-  const detroitRedWings=teams.filter((team)=>team.team==='Detroit Red Wings');
-  return (
-    <div className='DET'>
-      {detroitRedWings.map((team)=>(
+  const detroitRedWings = teams.filter(
+    (team) => team.team === 'Detroit Red Wings'
+  );
+  return detroitRedWings.map((team) => (
+    <div key={team.team} className={team.teamStyle}>
       <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome {team.team} FANS!!!</Card.Title>
@@ -21,7 +22,6 @@ export default function Wings() {
           {renderSocialLinks(team)}
         </Card.Body>
       </Card>
-      ))}
     </div>
-  );
+  ));
 }

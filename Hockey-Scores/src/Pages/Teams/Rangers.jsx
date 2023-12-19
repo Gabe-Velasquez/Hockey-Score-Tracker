@@ -1,12 +1,13 @@
 import Card from 'react-bootstrap/Card';
-import teams from '../../utils/teams'
+import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 export default function Rangers() {
   // They have a nickname but their actual name is shorter
-  const newYorkRangers=teams.filter((team)=>team.team==='New York Rangers');
-  return (
-    <div className='NYR'>
-      {newYorkRangers.map((team)=>(
+  const newYorkRangers = teams.filter(
+    (team) => team.team === 'New York Rangers'
+  );
+  return newYorkRangers.map((team) => (
+    <div key={team.team} className={team.teamStyle}>
       <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome {team.team} FANS!!!</Card.Title>
@@ -21,7 +22,6 @@ export default function Rangers() {
           {renderSocialLinks(team)}
         </Card.Body>
       </Card>
-      ))}
     </div>
-  );
+  ));
 }

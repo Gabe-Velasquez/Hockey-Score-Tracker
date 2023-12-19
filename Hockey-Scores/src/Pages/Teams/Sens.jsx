@@ -1,12 +1,13 @@
 import Card from 'react-bootstrap/Card';
-import teams from '../../utils/teams'
+import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 export default function Sens() {
   // Not to be confused by the Bic product but those tiny birds with tuxedos
-  const ottawaSenators=teams.filter((team)=>team.team==='Ottawa Senators');
-  return (
-    <div className='OTT'>
-      {ottawaSenators.map((team)=>(
+  const ottawaSenators = teams.filter(
+    (team) => team.team === 'Ottawa Senators'
+  );
+  return ottawaSenators.map((team) => (
+    <div key={team.team} className={team.teamStyle}>
       <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome </Card.Title>
@@ -21,7 +22,6 @@ export default function Sens() {
           {renderSocialLinks(team)}
         </Card.Body>
       </Card>
-      ))}
     </div>
-  );
+  ));
 }

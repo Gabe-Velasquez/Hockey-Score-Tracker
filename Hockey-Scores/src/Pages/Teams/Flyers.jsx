@@ -3,10 +3,11 @@ import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 export default function Flyers() {
   // Flyers is shorter than their nicknames....
-  const philadelphiaFlyers = teams.filter((team)=>team.team==="Philadelphia Flyers");
-  return (
-    <div className='PHI'>
-      {philadelphiaFlyers.map((team)=>(
+  const philadelphiaFlyers = teams.filter(
+    (team) => team.team === 'Philadelphia Flyers'
+  );
+  return philadelphiaFlyers.map((team) => (
+    <div key={team.team} className={team.teamStyle}>
       <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome {team.team} FANS!!!</Card.Title>
@@ -21,7 +22,6 @@ export default function Flyers() {
           {renderSocialLinks(team)}
         </Card.Body>
       </Card>
-      ))}
     </div>
-  );
+  ));
 }

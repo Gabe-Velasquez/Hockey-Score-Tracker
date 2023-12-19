@@ -1,11 +1,10 @@
 import Card from 'react-bootstrap/Card';
-import teams from '../../utils/teams'
+import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 export default function Ducks() {
-  const AnaheimDucks = teams.filter((team)=>team.team==="Anaheim Ducks");
-  return (
-    <div className='ANA'>
-      {AnaheimDucks.map((team)=>(
+  const AnaheimDucks = teams.filter((team) => team.team === 'Anaheim Ducks');
+  return AnaheimDucks.map((team) => (
+    <div key={team.team} className={team.teamStyle}>
       <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome {team.team} FANS!!!</Card.Title>
@@ -20,7 +19,6 @@ export default function Ducks() {
           {renderSocialLinks(team)}
         </Card.Body>
       </Card>
-      ))}
     </div>
-  );
+  ));
 }

@@ -1,14 +1,13 @@
 import Card from 'react-bootstrap/Card';
-import teams from '../../utils/teams'
+import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 export default function Buffaslug() {
-  const buffaloSabres = teams.filter((team) => team.team === "Buffalo Sabres");
-  return (
-    <div className='BUF'>
-      {buffaloSabres.map((team)=>(
+  const buffaloSabres = teams.filter((team) => team.team === 'Buffalo Sabres');
+  return buffaloSabres.map((team) => (
+    <div key={team.team} className={team.teamStyle}>
       <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
-          <Card.Title>Welcome {team.team} FANS!!!  </Card.Title>
+          <Card.Title>Welcome {team.team} FANS!!! </Card.Title>
           <Card.Subtitle className='mb-2 text-muted'>
             Card Subtitle
           </Card.Subtitle>
@@ -20,7 +19,6 @@ export default function Buffaslug() {
           {renderSocialLinks(team)}
         </Card.Body>
       </Card>
-           ))}
     </div>
-  );
+  ));
 }

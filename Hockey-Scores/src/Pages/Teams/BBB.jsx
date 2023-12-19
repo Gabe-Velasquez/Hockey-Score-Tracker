@@ -1,11 +1,10 @@
 import Card from 'react-bootstrap/Card';
-import teams from '../../utils/teams'
+import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 export default function BBB() {
-  const bostonBruins = teams.filter((team) => team.team === "Boston Bruins");
-  return (
-    <div className='BOS'>
-      {bostonBruins.map((team)=>(
+  const bostonBruins = teams.filter((team) => team.team === 'Boston Bruins');
+  return bostonBruins.map((team) => (
+    <div key={team.team} className={team.teamStyle}>
       <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome {team.team} FANS!!!</Card.Title>
@@ -18,9 +17,8 @@ export default function BBB() {
           </Card.Text>
           {/* Socials */}
           {renderSocialLinks(team)}
-          </Card.Body>
+        </Card.Body>
       </Card>
-    ))}
     </div>
-  );
+  ));
 }

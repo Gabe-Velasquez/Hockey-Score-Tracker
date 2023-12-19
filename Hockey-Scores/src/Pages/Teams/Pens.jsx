@@ -3,11 +3,12 @@ import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 export default function Pens() {
   // Not to be confused by the Bic product but those tiny birds with tuxedos
-  const pittsburghPenguins=teams.filter((team)=>team.team==="Pittsburgh Penguins");
-  return (
-    <div className='PIT'>
-      {pittsburghPenguins.map((team)=>(
-      <Card key={team.team}style={{ width: '18rem' }} className='Team-Card'>
+  const pittsburghPenguins = teams.filter(
+    (team) => team.team === 'Pittsburgh Penguins'
+  );
+  return pittsburghPenguins.map((team) => (
+    <div key={team.team} className={team.teamStyle}>
+      <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome {team.team} FANS!!!</Card.Title>
           <Card.Subtitle className='mb-2 text-muted'>
@@ -21,7 +22,6 @@ export default function Pens() {
           {renderSocialLinks(team)}
         </Card.Body>
       </Card>
-      ))}
     </div>
-  );
+  ));
 }
