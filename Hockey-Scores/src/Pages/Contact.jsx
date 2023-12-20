@@ -9,8 +9,7 @@ export default function Contact(){
           <Card.Text>
           Thank you for using my application! If you have any questions or experience any issues, you can reach out to me on the following platforms: 
           </Card.Text>
-          <Card.Link href="https://www.linkedin.com/in/gabriel-velasquez-/" target="_blank" rel="noopener noreferrer">LinkedIn</Card.Link>
-          <Card.Link href="https://github.com/Gabe-Velasquez" target="_blank" rel="noopener noreferrer">Github</Card.Link>
+          
         </Card.Body>
       </Card>
         // <div className="card ">
