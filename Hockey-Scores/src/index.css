@@ -45,6 +45,14 @@ h1 {
   
 }
 
+.puck{
+  background-image: url('../src/images/home-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
+}
+
 /* NHL TEAM CLASSES */
 .Team-Card {
   position: absolute;

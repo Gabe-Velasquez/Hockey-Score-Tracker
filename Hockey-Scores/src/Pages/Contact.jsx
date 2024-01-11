@@ -10,6 +10,7 @@ export default function Contact(){
           <Card.Text>
           Thank you for using my application! If you have any questions or experience any issues, you can reach out to me on the following platforms: 
           </Card.Text>
+          {/* Loops iterates each social media link in teams array */}
           <PersonalSocials /> 
         </Card.Body>
       </Card>
