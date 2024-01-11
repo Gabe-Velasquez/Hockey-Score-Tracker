@@ -8,7 +8,46 @@ export default function Avs() {
   );
   return coloradoAvalanche.map((team) => (
     <div key={team.team} className={team.teamStyle}>
-      <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
+      <Card style={{ width: '18rem' }} className='m-auto'>
+        <Card.Body>
+          <Card.Title className='text-center'>{team.team}</Card.Title>
+          <Card.Text>
+            The Colorado Avalanche are from Denver, Colorado and have been
+            playing there for since 1995. Before then, they were called the
+            Quebec Nordiques. This hockey club has won 3 Stanley Cups in their
+            history.
+          </Card.Text>
+          <Card.Title>Stanley Cup Wins</Card.Title>
+          {/* Create loop for this */}
+          <Card.Body>
+            <tbody>
+              <tr></tr>
+            </tbody>
+          </Card.Body>
+        </Card.Body>
+        <Card.Body>
+          <Card.Title className='text-center'>Noteable Players</Card.Title>
+          <tbody>
+            {/* Add from array with team information and loop */}
+          </tbody>
+        </Card.Body>
+      </Card>
+
+      <Card style={{ width: '18rem' }} className='m-auto'>
+        <Card.Body>
+          <Card.Title className='text-center'>Upcoming Games</Card.Title>
+          {/* Looking through scoring API to target soonest games for certain games and returning based on team playing, could probably make this a loop and dynamically iterate based on team.  */}
+        </Card.Body>
+      </Card>
+
+      <Card style={{ width: '18rem' }} className='m-auto'>
+        <Card.Body>
+          <Card.Title className='text-center'>Find Tickets!!</Card.Title>
+          {/* Currently doing research for ticketmaster and stubhub APIs  */}
+        </Card.Body>
+      </Card>
+
+      <Card key={team.team} style={{ width: '16rem' }} className='Team-Card'>
         <Card.Body>
           <Card.Title>Welcome {team.team} FANS!!! </Card.Title>
           <Card.Subtitle className='mb-2 text-muted'>
