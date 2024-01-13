@@ -18,7 +18,7 @@ export default function Avs() {
             Quebec Nordiques. This hockey club has won 3 Stanley Cups in their
             history.
           </Card.Text>
-          <Card.Title>Stanley Cup Wins</Card.Title>
+          <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
           {/* Create loop for this */}
           <Card.Body>
             <tbody>
@@ -46,16 +46,8 @@ export default function Avs() {
         </Card.Body>
       </Card>
 
-      <Card key={team.team} style={{ width: '16rem' }} className='Team-Card'>
-        <Card.Body>
-          <Card.Title>Welcome {team.team} FANS!!! </Card.Title>
-          <Card.Subtitle className='mb-2 text-muted'>
-            Card Subtitle
-          </Card.Subtitle>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the content.
-          </Card.Text>
+      <Card key={team.team} style={{ width: '80%' }} className='Team-Card'>
+        <Card.Body style={{fontSize:'1.5rem',display:'flex', justifyContent:'space-around'}}>
           {/* Socials */}
           {renderSocialLinks(team)}
         </Card.Body>
