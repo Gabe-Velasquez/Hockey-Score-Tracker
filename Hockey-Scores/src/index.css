@@ -56,7 +56,7 @@ h1 {
 /* NHL TEAM CLASSES */
 .Team-Card {
   position: absolute;
-  top: 50%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 250px;
@@ -155,7 +155,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
-
+  display: flex;
   /* background-repeat: no-repeat;
  height: 100vh; /* Set height to 100vh for full window height */
   /* background-size: contain;
