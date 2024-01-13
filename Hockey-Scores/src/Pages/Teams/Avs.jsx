@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
+import PlayerTable from '../../utils/players';
 export default function Avs() {
   // And now the Rocky Mountain Extremes.... nvm Colorado Avalanche
   const coloradoAvalanche = teams.filter(
@@ -26,10 +27,8 @@ export default function Avs() {
           </Card.Body>
         </Card.Body>
         <Card.Body>
-          <Card.Title className='text-center'>Noteable Players</Card.Title>
-          <tbody>
-            {/* Add from array with team information and loop */}
-          </tbody>
+          <Card.Title className='text-center'>Notable Players</Card.Title>
+          <PlayerTable team={team} />
         </Card.Body>
       </Card>
 
