@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
+import PlayerTable from '../../utils/players';
 export default function Ducks() {
   const AnaheimDucks = teams.filter((team) => team.team === 'Anaheim Ducks');
   return AnaheimDucks.map((team) => (

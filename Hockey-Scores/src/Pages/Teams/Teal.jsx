@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
+import PlayerTable from '../../utils/players';
 export default function Teals() {
   // Never heard a sharks fan call them this... then again I only know one fan.
   const sanJoseSharks = teams.filter((team) => team.team === 'San Jose Sharks');

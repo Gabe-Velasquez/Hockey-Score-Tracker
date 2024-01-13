@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
+import PlayerTable from '../../utils/players';
 export default function Preds() {
   // Smashville or Trashville are acceptable here depending which side you root for
   const nashvillePredators = teams.filter(

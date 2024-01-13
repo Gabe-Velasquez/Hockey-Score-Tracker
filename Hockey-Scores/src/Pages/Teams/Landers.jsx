@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
+import PlayerTable from '../../utils/players';
 export default function Landers() {
   // Ice Landers but Landers makes it easier for writing pages
   const newYorkIslanders = teams.filter(

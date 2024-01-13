@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
+import PlayerTable from '../../utils/players';
 export default function Monarchs() {
   const laKings = teams.filter((team) => team.team === 'Los Angeles Kings');
   return laKings.map((team) => (

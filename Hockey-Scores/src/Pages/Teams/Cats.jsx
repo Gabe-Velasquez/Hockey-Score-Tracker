@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
+import PlayerTable from '../../utils/players';
 export default function Cats() {
   // The underdog of the 2023 playoffs! Meow!!
   const floridaPanthers = teams.filter(

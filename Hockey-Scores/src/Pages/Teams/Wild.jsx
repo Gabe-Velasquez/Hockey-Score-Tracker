@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
+import PlayerTable from '../../utils/players';
 export default function Wild() {
   //Central teams would call them Mild but they have their moments
   const minnesotaWild = teams.filter((team) => team.team === 'Minnesota Wild');

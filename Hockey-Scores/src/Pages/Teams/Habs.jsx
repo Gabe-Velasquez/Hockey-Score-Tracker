@@ -1,5 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import renderSocialLinks from '../../utils/renderSocialLinks';
+import PlayerTable from '../../utils/players';
 import teams from '../../utils/teams';
 
 export default function Habs() {

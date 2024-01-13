@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
+import PlayerTable from '../../utils/players';
 export default function Hawks() {
   // No, this is not from the first Mighty Ducks movie... one of the original six teams!
   const chicagoBlackhawks = teams.filter(
