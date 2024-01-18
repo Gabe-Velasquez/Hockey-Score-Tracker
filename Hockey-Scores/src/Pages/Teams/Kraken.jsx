@@ -11,10 +11,7 @@ export default function Kraken() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The Colorado Avalanche are from Denver, Colorado and have been
-            playing there for since 1995. Before then, they were called the
-            Quebec Nordiques. This hockey club has won 3 Stanley Cups in their
-            history.
+            The 
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />
