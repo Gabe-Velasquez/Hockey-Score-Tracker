@@ -25,7 +25,7 @@ const CupWins = ({ team }) => {
           ))
         ) : (
           <tr>
-            <td>No Stanley Cup wins yet.</td>
+            <img src="http://www.quickmeme.com/img/01/0149f3c3306cc271a7907059fa47e125edf246fecf298c2981f55154e4e4adee.jpg" alt="No Cups" width={250}/>
           </tr>
         )}
       </tbody>
@@ -36,7 +36,6 @@ const CupWins = ({ team }) => {
 CupWins.propTypes = {
   team: PropTypes.shape({
     cupWin: PropTypes.string,  // PropType for cupWin (lowercase)
-    // Add PropTypes for other players and years as needed
   }).isRequired,
 };
 
