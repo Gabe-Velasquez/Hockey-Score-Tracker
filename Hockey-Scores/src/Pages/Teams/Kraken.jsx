@@ -10,11 +10,9 @@ export default function Kraken() {
       <Card style={{ width: '18rem' }} className='m-auto'>
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
-          <Card.Text>
-            The 
-          </Card.Text>
+          <Card.Text>The</Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
-            <CupWins team={team} />
+          <CupWins team={team} />
         </Card.Body>
         <Card.Body>
           <Card.Title className='text-center'>Notable Players</Card.Title>
@@ -37,7 +35,13 @@ export default function Kraken() {
       </Card>
 
       <Card key={team.team} style={{ width: '80%' }} className='Team-Card'>
-        <Card.Body style={{fontSize:'1.5rem',display:'flex', justifyContent:'space-around'}}>
+        <Card.Body
+          style={{
+            fontSize: '1.5rem',
+            display: 'flex',
+            justifyContent: 'space-around',
+          }}
+        >
           {/* Socials */}
           {renderSocialLinks(team)}
         </Card.Body>
@@ -45,4 +49,3 @@ export default function Kraken() {
     </div>
   ));
 }
-

@@ -20,7 +20,7 @@ export default function Avs() {
             history.
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
-            <CupWins team={team} />
+          <CupWins team={team} />
         </Card.Body>
         <Card.Body>
           <Card.Title className='text-center'>Notable Players</Card.Title>
@@ -43,7 +43,13 @@ export default function Avs() {
       </Card>
 
       <Card key={team.team} style={{ width: '80%' }} className='Team-Card'>
-        <Card.Body style={{fontSize:'1.5rem',display:'flex', justifyContent:'space-around'}}>
+        <Card.Body
+          style={{
+            fontSize: '1.5rem',
+            display: 'flex',
+            justifyContent: 'space-around',
+          }}
+        >
           {/* Socials */}
           {renderSocialLinks(team)}
         </Card.Body>

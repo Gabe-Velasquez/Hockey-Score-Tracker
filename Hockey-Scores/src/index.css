@@ -56,7 +56,7 @@ h1 {
 /* NHL TEAM CLASSES */
 .Team-Card {
   position: absolute;
-  top: 90%;
+  top: 98%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 250px;
@@ -79,6 +79,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .ARI {
   /* Brick Red #6F263D */
@@ -89,6 +90,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .BOS {
   /* Black #010101 */
@@ -98,6 +100,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .BUF {
   /* Royal Blue #003087 */
@@ -108,6 +111,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .CAR {
   /* Red #C8102E */
@@ -118,6 +122,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .CBJ {
   /* Union Blue #041E42 */
@@ -128,6 +133,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .CGY {
   /* Red #C8102E */
@@ -138,6 +144,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .CHI {
   /* Red #C8102E */
@@ -148,6 +155,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .COL {
   background-image: url('../src/images/COL.jpg');
@@ -173,6 +181,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .DET {
   /* Red #C8102E */
@@ -182,6 +191,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .EDM {
   /* Royal Blue #003087 */
@@ -192,6 +202,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .FLA {
   /* Red #C8102E */
@@ -203,6 +214,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .LAK {
   /* Black #010101 */
@@ -213,6 +225,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .MIN {
   /* Forest Green #0E4431 */
@@ -223,6 +236,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .MTL {
   /* Red #C8102E */
@@ -233,6 +247,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .NJD {
   /*  Red #CC0000 */
@@ -243,6 +258,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .NSH {
   /* Gold #FFB81C */
@@ -253,6 +269,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .NYI {
   /* Blue #00468B */
@@ -263,6 +280,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .NYR {
   /* Blue #0033A0 */
@@ -273,6 +291,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .OTT {
   /* Black #010101 */
@@ -284,6 +303,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .PHI {
   /* Burnt Orange #D24303 */
@@ -294,6 +314,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .PIT {
   /* Black #010101 */
@@ -304,6 +325,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .SEA {
   /* Deep Sea Blue #001F25 */
@@ -315,6 +337,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .SJS {
   /* Deep Pacific Teal #006772 */
@@ -325,6 +348,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .STL {
   /* Royal Blue # */
@@ -336,6 +360,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .TBL {
   /* Blue #00205B */
@@ -346,6 +371,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .TOR {
   /* Blue #00205B */
@@ -355,6 +381,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .VAN {
   /* Blue #00205B */
@@ -365,6 +392,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .VGK {
   /* Steel Grey # */
@@ -376,6 +404,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .WPG {
   /* Polar Night Blue #041E42 */
@@ -387,6 +416,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 .WSH {
   /* Red #C8102E */
@@ -397,6 +427,7 @@ h1 {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
 }
 
 button {
