@@ -61,7 +61,13 @@ const PlayerTable = ({ team }) => {
       <tbody>
         {players.map((player, index) => (
           <tr key={index}>
-            <td>{player.name}</td>
+            <td>
+            <a
+                href={`https://en.wikipedia.org/wiki/${encodeURIComponent(player.name)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              {player.name}</a></td>
             <td>{player.years}</td>
           </tr>
         ))}
