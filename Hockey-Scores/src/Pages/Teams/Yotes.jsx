@@ -2,21 +2,43 @@ import Card from 'react-bootstrap/Card';
 import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 import PlayerTable from '../../utils/players';
+import CupWins from '../../utils/cupWins';
 export default function Yotes() {
   const arizonaCoyotes = teams.filter(
     (team) => team.team === 'Arizona Coyotes');
   return arizonaCoyotes.map((team) => (
     <div key={team.team} className={team.teamStyle}>
-      <Card key={team.team} style={{ width: '18rem' }} className='Team-Card'>
+      <Card style={{ width: '18rem' }} className='m-auto'>
         <Card.Body>
-          <Card.Title>Welcome {team.team} FANS!!!</Card.Title>
-          <Card.Subtitle className='mb-2 text-muted'>
-            Card Subtitle
-          </Card.Subtitle>
+          <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the content.
+            The Arizona Coyotes are an ice hockey team based in the Phoenix metropolitan area. They are members of the National Hockey League&apos;s (NHL) Central Division. The team was founded in 1996 as the Phoenix Coyotes, and they changed their name to the Arizona Coyotes in 2014.            
           </Card.Text>
+          <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
+            <CupWins team={team} />
+        </Card.Body>
+        <Card.Body>
+          <Card.Title className='text-center'>Notable Players</Card.Title>
+          <PlayerTable team={team} />
+        </Card.Body>
+      </Card>
+
+      <Card style={{ width: '18rem' }} className='m-auto'>
+        <Card.Body>
+          <Card.Title className='text-center'>Upcoming Games</Card.Title>
+          {/* Looking through scoring API to target soonest games for certain games and returning based on team playing, could probably make this a loop and dynamically iterate based on team.  */}
+        </Card.Body>
+      </Card>
+
+      <Card style={{ width: '18rem' }} className='m-auto'>
+        <Card.Body>
+          <Card.Title className='text-center'>Find Tickets!!</Card.Title>
+          {/* Currently doing research for ticketmaster and stubhub APIs  */}
+        </Card.Body>
+      </Card>
+
+      <Card key={team.team} style={{ width: '80%' }} className='Team-Card'>
+        <Card.Body style={{fontSize:'1.5rem',display:'flex', justifyContent:'space-around'}}>
           {/* Socials */}
           {renderSocialLinks(team)}
         </Card.Body>

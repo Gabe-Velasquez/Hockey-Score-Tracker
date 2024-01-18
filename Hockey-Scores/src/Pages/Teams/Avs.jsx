@@ -2,6 +2,7 @@ import Card from 'react-bootstrap/Card';
 import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 import PlayerTable from '../../utils/players';
+import CupWins from '../../utils/cupWins';
 export default function Avs() {
   // And now the Rocky Mountain Extremes.... nvm Colorado Avalanche
   const coloradoAvalanche = teams.filter(
@@ -19,12 +20,7 @@ export default function Avs() {
             history.
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
-          {/* Create loop for this */}
-          <Card.Body>
-            <tbody>
-              <tr></tr>
-            </tbody>
-          </Card.Body>
+            <CupWins team={team} />
         </Card.Body>
         <Card.Body>
           <Card.Title className='text-center'>Notable Players</Card.Title>
