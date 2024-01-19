@@ -21,10 +21,15 @@ const Tickets = ({ team }) => {
 
   return (
     <body className='text-center'>
-      <h2>Next Five Games</h2>
+      <h2>Next Five Events</h2>
       <ul>
         {tickets.slice(0, 5).map((event) => (
-          <li key={event.id}>{event.title}</li>
+          <li key={event.id}>
+            {/* Renders a clickable link for each event */}
+            <a href={event.url} target="_blank" rel="noopener noreferrer">
+              {event.title}
+            </a>
+          </li>
         ))}
       </ul>
     </body>
