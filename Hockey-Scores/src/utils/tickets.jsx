@@ -20,16 +20,21 @@ const Tickets = ({ team }) => {
   }, [team.team, API_KEY]);
 
   return (
-  <body className='text-center'>
-
-  </body>
+    <body className='text-center'>
+      <h2>Next Five Games</h2>
+      <ul>
+        {tickets.slice(0, 5).map((event) => (
+          <li key={event.id}>{event.title}</li>
+        ))}
+      </ul>
+    </body>
   );
 };
 
 Tickets.propTypes = {
-    team: PropTypes.shape({
-      team: PropTypes.string.isRequired,
-    }).isRequired,
-  };
+  team: PropTypes.shape({
+    team: PropTypes.string.isRequired,
+  }).isRequired,
+};
 
 export default Tickets;
