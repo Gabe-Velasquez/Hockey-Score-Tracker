@@ -1,4 +1,5 @@
 import axios from 'axios';
+import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react';
 
 const Tickets = ({ team }) => {
@@ -17,12 +18,18 @@ const Tickets = ({ team }) => {
       })
       .catch((err) => console.log(err));
   }, [team.team, API_KEY]);
-  
+
   return (
   <body className='text-center'>
 
   </body>
   );
 };
+
+Tickets.propTypes = {
+    team: PropTypes.shape({
+      team: PropTypes.string.isRequired,
+    }).isRequired,
+  };
 
 export default Tickets;

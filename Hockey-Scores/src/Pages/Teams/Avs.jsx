@@ -3,6 +3,7 @@ import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 import PlayerTable from '../../utils/players';
 import CupWins from '../../utils/cupWins';
+import Tickets from '../../utils/tickets';
 export default function Avs() {
   // And now the Rocky Mountain Extremes.... nvm Colorado Avalanche
   const coloradoAvalanche = teams.filter(
@@ -38,7 +39,7 @@ export default function Avs() {
       <Card style={{ width: '18rem' }} className='m-auto'>
         <Card.Body>
           <Card.Title className='text-center'>Find Tickets!!</Card.Title>
-          {/* Currently doing research for ticketmaster and stubhub APIs  */}
+          <Tickets team={team} />
         </Card.Body>
       </Card>
 
