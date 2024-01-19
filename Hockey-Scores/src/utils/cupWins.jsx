@@ -15,7 +15,7 @@ const CupWins = ({ team }) => {
   }
 
   return (
-    <body className='text-center'>
+    <div className='text-center'>
         {wins.length > 0 ? (
           wins.map((year, index) => (
             <h5 key={index}>
@@ -26,7 +26,7 @@ const CupWins = ({ team }) => {
             <img src="http://www.quickmeme.com/img/01/0149f3c3306cc271a7907059fa47e125edf246fecf298c2981f55154e4e4adee.jpg" alt="No Cups" width={250}/>
         )}
       
-    </body>
+    </div>
   ); 
 }; 
 
