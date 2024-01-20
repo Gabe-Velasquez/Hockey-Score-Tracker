@@ -13,7 +13,7 @@ export default function Bolts() {
       <Card.Body>
         <Card.Title className='text-center'>{team.team}</Card.Title>
         <Card.Text>
-          The 
+        Born in 1992, the Lightning weren&apos;t just new to the NHL, they were new to Florida itself. Yet, this young franchise quickly harnessed the Sunshine State&apos;s vibrant energy, building a dynasty fueled by talent and tenacity. Three Stanley Cups in two decades – they&apos;re not just &quot;striking,&quot; they&apos;re rewriting the record books! 
         </Card.Text>
         <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
           <CupWins team={team} />

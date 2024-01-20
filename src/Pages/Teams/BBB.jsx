@@ -11,7 +11,7 @@ export default function BBB() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The 
+          Founded in 1924, the Bruins are one of the NHL&apos;s Original Six, an elite bunch who&apos;ve witnessed the evolution of the sport firsthand. They&apos;ve skated away with six Stanley Cups, including a thrilling victory in 2011 that ended a 39-year drought. The roar of the Garden faithful after that win still echoes through the ages! 
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />
