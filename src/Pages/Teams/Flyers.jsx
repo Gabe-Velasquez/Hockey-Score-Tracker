@@ -14,7 +14,7 @@ export default function Flyers() {
       <Card.Body>
         <Card.Title className='text-center'>{team.team}</Card.Title>
         <Card.Text>
-          The 
+        Buckle up for a wild ride, because the Philadelphia Flyers are about to take you on a journey through grit, grace, and the unyielding spirit of &quot;Broad Street Bully&quot; hockey! Founded in 1967, these orange and black warriors have been a thorn in the side of opponents and a source of immense pride for Philly fans ever since. 
         </Card.Text>
         <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
           <CupWins team={team} />

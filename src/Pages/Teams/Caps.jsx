@@ -14,7 +14,7 @@ export default function Caps() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The 
+          These D.C. darlings, affectionately known as the &quot;Caps,&quot; have been heating up the National Hockey League since 1974. Boasting a rich history that includes a coveted Stanley Cup championship in 2018, they&apos;re a team that&apos;s synonymous with resilience, skill, and pure Washingtonian grit. 
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

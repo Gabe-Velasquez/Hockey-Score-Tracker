@@ -11,7 +11,7 @@ export default function Buffaslug() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The 
+          Hailing from the &quot;Queen City&quot; of Buffalo, New York, the Sabres are a team steeped in hockey legacy and fierce fan devotion. Founded in 1970, they&apos;ve brought electrifying speed, dazzling plays, and unforgettable moments like the legendary &quot;French Connection&quot; line to the ice. 
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

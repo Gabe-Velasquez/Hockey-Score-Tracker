@@ -14,7 +14,8 @@ export default function Habs() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The 
+          Founded in 1909, the Canadiens are the oldest continuously operating professional hockey team in the world, and let me tell you, they&apos;ve racked up quite the trophy case in their 115-year history. 
+          They&apos;re a cultural touchstone in Montreal, Quebec, and even all of Canada. The bleu-blanc-rouge jerseys are instantly recognizable, and the &quot;Olé, Olé, Olé&quot; chant that rings through the Bell Centre can send shivers down your spine.
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

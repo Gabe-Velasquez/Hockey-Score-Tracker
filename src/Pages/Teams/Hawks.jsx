@@ -14,7 +14,7 @@ export default function Hawks() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The 
+          Founded in 1926, the Chicago Blackhawks are one of the NHL&apos;s most storied franchises, boasting six Stanley Cup victories, a passionate fanbase, and a rich history dating back to the Original Six era. 
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

@@ -11,7 +11,7 @@ export default function Ducks() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The 
+          Quack quack, let&apos;s get ready to fly with the Anaheim Ducks! These SoCal-based birds have been flapping their wings in the NHL since 1993, bringing a brand of sunshine and skill to the ice. From their &quot;Mighty Ducks&quot; origins to their modern incarnation, the Ducks are a team that&apos;s all about heart, hustle, and some seriously smooth moves. 
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

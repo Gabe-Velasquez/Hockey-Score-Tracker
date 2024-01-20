@@ -13,7 +13,7 @@ export default function Canes() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The 
+          Buckle up for a whirlwind ride with the Carolina Hurricanes, a team that brings Southern charm and downright fierce talent to the ice! Born in 1971 as the New England Whalers, these &quot;Canes&quot; migrated south in 1997, bringing their electrifying brand of hockey to the heart of Raleigh, North Carolina.
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

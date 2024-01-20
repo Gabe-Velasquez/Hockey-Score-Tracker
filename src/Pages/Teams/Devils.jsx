@@ -13,7 +13,7 @@ export default function Devils() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The 
+          Unleash the inner devil and join the red-hot New Jersey Devils! Hailing from the Garden State, these fiery fiends have been scorching the ice since 1982. Don&apos;t underestimate their bite – the Devils are a team with a rich history, boasting three Stanley Cup victories (1995, 2000, 2003) and a reputation for tenacious defense and opportunistic offense. 
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />
