@@ -12,7 +12,7 @@ export default function Notes() {
       <Card.Body>
         <Card.Title className='text-center'>{team.team}</Card.Title>
         <Card.Text>
-        Buckle up, Blues faithful, for a ride on the "Gloria" express! The St. Louis Blues, a team steeped in bluesy vibes and gritty determination, have been painting the ice blue since 1967. From their soulful Stanley Cup victory in 2019 to their electrifying offense and passionate fanbase, the Blues are sure to leave you singing their praises. 
+        Buckle up, Blues faithful, for a ride on the &quot;Gloria&quot; express! The St. Louis Blues, a team steeped in bluesy vibes and gritty determination, have been painting the ice blue since 1967. From their soulful Stanley Cup victory in 2019 to their electrifying offense and passionate fanbase, the Blues are sure to leave you singing their praises. 
         </Card.Text>
         <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
           <CupWins team={team} />

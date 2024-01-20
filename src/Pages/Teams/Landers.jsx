@@ -15,7 +15,7 @@ export default function Landers() {
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
             
-Ahoy, Islanders faithful! Get ready to set sail with the Islanders, a team steeped in New York grit and Isles' pride. Founded in 1972, they've weathered storms, brought home four Stanley Cups (including a legendary four-peat!), and built a devoted fanbase known for their unwavering support. 
+Ahoy, Islanders faithful! Get ready to set sail with the Islanders, a team steeped in New York grit and Isles&apos; pride. Founded in 1972, they&apos;ve weathered storms, brought home four Stanley Cups (including a legendary four-peat!), and built a devoted fanbase known for their unwavering support. 
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

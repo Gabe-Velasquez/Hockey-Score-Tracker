@@ -15,7 +15,7 @@ export default function Pens() {
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
             
-Alright, hockey fans, strap on your Crosby jerseys and get ready to witness the electrifying Pittsburgh Penguins! This is a team where championship pedigree meets dazzling skill, all fueled by the passionate roar of the "Iggy Army." 
+Alright, hockey fans, strap on your Crosby jerseys and get ready to witness the electrifying Pittsburgh Penguins! This is a team where championship pedigree meets dazzling skill, all fueled by the passionate roar of the &quot;Iggy Army.&quot;
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

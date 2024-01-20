@@ -14,7 +14,7 @@ export default function Preds() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-          Hear that roar echoing through the heart of Smashville? That's the sound of the Nashville Predators, ready to pounce on the ice and unleash their relentless attack! This team is a potent mix of Southern grit, electrifying speed, and a loyal fanbase that bleeds gold and teal. 
+          Hear that roar echoing through the heart of Smashville? That&apos;s the sound of the Nashville Predators, ready to pounce on the ice and unleash their relentless attack! This team is a potent mix of Southern grit, electrifying speed, and a loyal fanbase that bleeds gold and teal. 
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

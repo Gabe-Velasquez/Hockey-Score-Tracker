@@ -13,7 +13,7 @@ export default function Nucks() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-          Get ready to unleash your inner Orca, hockey fan, because we're diving into the electrifying world of the Vancouver Canucks! This is a team where breathtaking scenery meets dazzling displays of skill on the ice, all fueled by the passionate roar of the "Canucks Army." 
+          Get ready to unleash your inner Orca, hockey fan, because we&apos;re diving into the electrifying world of the Vancouver Canucks! This is a team where breathtaking scenery meets dazzling displays of skill on the ice, all fueled by the passionate roar of the &quot;Canucks Army.&quot; 
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />
