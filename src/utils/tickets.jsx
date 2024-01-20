@@ -26,7 +26,7 @@ const Tickets = ({ team }) => {
         <ul>
           {tickets.slice(0, 5).map((event) => (
             <li key={event.id}>
-              {/* Render a clickable link for each event */}
+              {/* Renders a clickable link for each event */}
               <a href={event.url} target="_blank" rel="noopener noreferrer">
                 {event.title}
               </a>
