@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 import PlayerTable from '../../utils/players';
 import teams from '../../utils/teams';
-import CupWins from '../../utils/cupWins';
+import CupWins from '../../Components/cupWins';
 
 export default function Habs() {
   const montrealCanadiens = teams.filter(

@@ -1,5 +1,5 @@
 import Card from 'react-bootstrap/Card';
-import PersonalSocials from '../utils/personalSocials.jsx';
+import PersonalSocials from '../Components/personalSocials';
 
 export default function Contact() {
   return (

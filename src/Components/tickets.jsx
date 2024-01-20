@@ -7,36 +7,37 @@ const Tickets = ({ team }) => {
   const [tickets, setTickets] = useState([]);
   useEffect(() => {
     const baseURL = 'https://api.seatgeek.com/2/events';
-    const dynamicURL = `${baseURL}?performers.slug=${encodeURIComponent(
-      team.team
-    )}&client_id=${API_KEY}`;
-    console.log(dynamicURL)
+    const teamSlug = encodeURIComponent(team.team.replace(/\s+/g, '-'));
+    const dynamicURL = `${baseURL}?performers.slug=${teamSlug}&client_id=${API_KEY}`;
+    console.log(dynamicURL);
     axios
       .get(dynamicURL)
       .then((res) => {
-        setTickets(res.data);
+        console.log(res.data)
+        setTickets(res.data.events);
       })
       .catch((err) => console.log(err));
-  }, [team.team, API_KEY]);
-
+  }, [team.team, API_KEY]) ;
+  
   return (
-    <body className='text-center'>
-      <h2>Next Five Events</h2>
+    <div className='text-center'>
+      
+      <h3>Next Five Games</h3>
       {tickets.length > 0 ? (
         <ul>
           {tickets.slice(0, 5).map((event) => (
             <li key={event.id}>
               {/* Renders a clickable link for each event */}
-              <a href={event.url} target="_blank" rel="noopener noreferrer">
+              <a href={event.url} >
                 {event.title}
               </a>
             </li>
           ))}
         </ul>
       ) : (
-        <p>Loading...</p>
+        <p>No games scheduled...</p>
       )}
-    </body>
+    </div>
   );
 };
 

@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 import PlayerTable from '../../utils/players';
-import CupWins from '../../utils/cupWins';
+import CupWins from '../../Components/cupWins';
 export default function Notes() {
   //The Blue Notes... 9 hours from West Virginia but they always sing this song....
   const stLouisBlues = teams.filter((team) => team.team === 'St. Louis Blues');

@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 import PlayerTable from '../../utils/players';
-import CupWins from '../../utils/cupWins';
+import CupWins from '../../Components/cupWins';
 export default function FSD() {
   // name does not stand for Full Self Driving like what I thought at first.
   const calgaryFlames = teams.filter((team) => team.team === 'Calgary Flames');

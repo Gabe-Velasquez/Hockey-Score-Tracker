@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 import teams from '../../utils/teams';
 import renderSocialLinks from '../../utils/renderSocialLinks';
 import PlayerTable from '../../utils/players';
-import CupWins from '../../utils/cupWins';
+import CupWins from '../../Components/cupWins';
 export default function BBB() {
   const bostonBruins = teams.filter((team) => team.team === 'Boston Bruins');
   return bostonBruins.map((team) => (
