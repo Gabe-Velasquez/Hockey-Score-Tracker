@@ -14,7 +14,7 @@ export default function Wings() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            
+          Hear that buzz in the Motor City? That's the Detroit Red Wings, legends reawakened, ready to paint the ice red and white! This team is a potent mix of championship heritage, electrifying young talent, and a fanbase as loyal as they come, all fueled by the spirit of Hockeytown.
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

@@ -11,7 +11,7 @@ export default function Monarchs() {
       <Card.Body>
         <Card.Title className='text-center'>{team.team}</Card.Title>
         <Card.Text>
-          The 
+        These Silver and Black warriors have been a force in the NHL since 1967, carving their legend with two Stanley Cup victories (2012, 2014) and electrifying play. From iconic names like Gretzky and Robitaille to the current Kings' young guns, prepare to witness a team steeped in history and hungry for more. 
         </Card.Text>
         <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
           <CupWins team={team} />

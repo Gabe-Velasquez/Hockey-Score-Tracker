@@ -13,7 +13,7 @@ export default function Knights() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The
+          These desert warriors, born in 2017 as the NHL's newest expansion team, have taken the league by storm in just a few short years. From a magical inaugural season that saw them reach the Stanley Cup finals, to their consistent playoff appearances and captivating style of play, the Golden Knights have become a force to be reckoned with.
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

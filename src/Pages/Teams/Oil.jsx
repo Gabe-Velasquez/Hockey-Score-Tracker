@@ -14,7 +14,8 @@ export default function Oil() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The 
+            
+Buckle up, Oilers fans, because we're about to rocket into the high-octane world of the Edmonton Oilers! This team is synonymous with electrifying speed, offensive fireworks, and a passionate fanbase that bleeds orange and blue. 
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

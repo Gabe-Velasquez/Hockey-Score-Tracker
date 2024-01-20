@@ -13,7 +13,7 @@ export default function Leafs() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The 
+          The Toronto Maple Leafs, one of the NHL's "Original Six" teams, have been a fixture in the hockey world since 1917. They've seen it all: 13 Stanley Cups, countless legends, and a passionate fanbase that bleeds blue and white. 
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

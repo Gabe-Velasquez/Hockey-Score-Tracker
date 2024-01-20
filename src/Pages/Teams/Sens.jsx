@@ -14,7 +14,8 @@ export default function Sens() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The 
+            
+Dust off your Senators jerseys, fans, because a new era is dawning on the banks of the Rideau Canal! The Ottawa Senators, once a powerhouse franchise fueled by the energy of the Sensational Six, are back on the rise, fueled by a young, hungry roster and a loyal fanbase ready to paint the Canadian Tire Centre red and white. 
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

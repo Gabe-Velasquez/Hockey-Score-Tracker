@@ -12,7 +12,7 @@ export default function Wild() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The
+          Hear that howling echo across the tundra? That's the sound of the Minnesota Wild, ready to unleash their fierce energy and electrifying play on the ice! This pack of skilled hunters is hungry for victory, fueled by the passionate support of the "State of Hockey."
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

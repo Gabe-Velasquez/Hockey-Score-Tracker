@@ -10,7 +10,9 @@ export default function Kraken() {
       <Card style={{ width: '18rem' }} className='m-auto'>
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
-          <Card.Text>The</Card.Text>
+          <Card.Text>
+          Ahoy there, matey! Buckle up for a deep dive into the mysteries of the deep and the electrifying Seattle Kraken! Born in 2021, this Pacific Northwest crew is still young, but they're making waves in the NHL with their vibrant fanbase, thrilling play, and iconic sea creature mascot.
+          </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
           <CupWins team={team} />
         </Card.Body>

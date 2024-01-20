@@ -12,7 +12,9 @@ export default function Jets() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The 
+          Born twice, the Jets are a team steeped in rich history and passionate fandom. Founded in 1972, they blazed a trail in the WHA and NHL with legends like Bobby Hull and Teemu Selanne, even reaching the Stanley Cup Finals in 1979.
+          Sadly, financial woes forced their relocation to Phoenix in 1996, leaving a gaping hole in Winnipeg&apos;s heart. But fear not, for in 2011, the Jets soared back onto the scene through the relocation of the Atlanta Thrashers. The city erupted in joy, welcoming their beloved team home with open arms. 
+ 
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

@@ -12,7 +12,7 @@ export default function Sherrifs() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The 
+          Alright, space cowboys and cowgirls, strap on your green and black and get ready for a cosmic ride with the Dallas Stars! This team is a supernova of offensive fireworks, defensive grit, and a passionate fanbase that bleeds Texas Stars pride. 
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

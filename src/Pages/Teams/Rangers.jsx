@@ -14,7 +14,7 @@ export default function Rangers() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The 
+          Hear the siren song of Madison Square Garden, fans, because the New York Rangers are ready to paint the ice blue and white! This is a team steeped in legendary names and electrifying play, where Stanley Cup dreams dance on the blades of their talented athletes. 
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

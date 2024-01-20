@@ -13,7 +13,7 @@ export default function Jackets() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The 
+          Founded in 2000 as the first NHL team in Ohio, the Blue Jackets started their journey as underdogs. But don&apos;t underestimate their bite! Over the years, they&apos;ve battled through rebuilds, celebrated playoff appearances, and even shocked the hockey world with upsets like their sweep of the Tampa Bay Lightning in 2019.
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />
