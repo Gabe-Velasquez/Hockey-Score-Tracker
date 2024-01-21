@@ -13,9 +13,9 @@ export default function Header(){
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href='/'>Home</Nav.Link>
-              <Nav.Link href="/about">About</Nav.Link>
-              <Nav.Link href="/scores">Scores</Nav.Link>
-              <Nav.Link href='/upcoming'>Upcoming</Nav.Link>
+              <Nav.Link href="/About">About</Nav.Link>
+              <Nav.Link href="/Scores">Scores</Nav.Link>
+              <Nav.Link href='/Upcoming'>Upcoming</Nav.Link>
               {/* place list of teams here */}
               <TeamList />
             </Nav>
