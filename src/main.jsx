@@ -41,9 +41,7 @@ import Wings from './Pages/Teams/Wings.jsx';
 import Yotes from './Pages/Teams/Yotes.jsx';
 import './index.css';
 
-const router = createBrowserRouter({
-  basename: '/',
-  routes: [
+const routes = [
     {
       path: '/',
       element: <App />,
@@ -215,8 +213,12 @@ const router = createBrowserRouter({
         },
       ],
     },
-  ],
-});
+  ];
+
+  const router = createBrowserRouter({
+    basename: '/',
+    routes:routes,
+  });
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
