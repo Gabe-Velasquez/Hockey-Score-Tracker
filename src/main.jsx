@@ -42,22 +42,7 @@ import Yotes from './Pages/Teams/Yotes.jsx';
 import './index.css';
 
 const routes = [
-    {
-      path: '/',
-      element: <App />,
-      errorElement: (
-        <div>
-          <img className='nfound' src='/hockey404.jpeg'></img>
-          <h1 className='display-2 text-center'>
-            Whoops! This page is empty... please go back
-          </h1>
-        </div>
-      ),
-      children: [
-        {
-          index: true,
-          element: <Home />,
-        },
+    
         {
           path: '/Home',
           element: <Home />,
@@ -211,9 +196,7 @@ const routes = [
           path: '/Teams/ArizonaCoyotes',
           element: <Yotes />,
         },
-      ],
-    },
-  ];
+      ]
 
   const router = createBrowserRouter({
     basename: '/',
