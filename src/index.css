@@ -58,6 +58,32 @@ ul{
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.puck-card{
+  margin-bottom: 16px;
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 20px;
+  background-color: rgba(225, 232, 223, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+  padding: 1.5rem
+}
+
+.About-Tiles {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.About-Tiles > .puck-card {
+  width: 100%; /* Make each card take full width */
 }
 
 /* NHL TEAM CLASSES */
