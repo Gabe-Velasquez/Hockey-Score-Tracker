@@ -65,6 +65,10 @@ ul{
 }
 
 .puck-card{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 16px;
   border: 1px solid rgba(255, 255, 255, .25);
   border-radius: 20px;
@@ -75,14 +79,14 @@ ul{
 }
 
 .About-Tiles {
+  
   padding: 16px;
   display: flex;
-  flex-direction: column;
   gap: 16px;
-  align-items: center;
 }
 
 .About-Tiles > .puck-card {
+  
   width: 100%; /* Make each card take full width */
 }
 

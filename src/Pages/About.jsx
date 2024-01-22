@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 export default function About() {
   return (
     <div className='puck'>
-    <Card className='text-center ' style={{marginLeft: 180, marginRight: 180}}>
+    <Card className='text-center ' style={{marginLeft: 280, marginRight: 280, marginBottom: 40}}>
       <Card.Body>
         <Card.Title>About</Card.Title>
         {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
