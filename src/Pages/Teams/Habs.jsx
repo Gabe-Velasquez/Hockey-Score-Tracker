@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
-import renderSocialLinks from '../../utils/renderSocialLinks';
-import PlayerTable from '../../utils/players';
+import renderSocialLinks from '../../Components/renderSocialLinks';
+import PlayerTable from '../../Components/players';
 import teams from '../../utils/teams';
 import CupWins from '../../Components/cupWins';
 
