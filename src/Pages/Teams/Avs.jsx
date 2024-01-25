@@ -14,25 +14,25 @@ export default function Avs() {
       <div className='mx-auto mt-4'>
       <Card style={{ width: '26rem' }} className='m-auto'>
         <Card.Body>
-          <Card.Title className='text-center'>{team.team}</Card.Title>
+          <Card.Title className='text-center display-5 text-decoration-underline'>{team.team}</Card.Title>
           <Card.Text>
             The Colorado Avalanche are from Denver, Colorado and have been
             playing there for since 1995. Before then, they were called the
             Quebec Nordiques. This hockey club has won 3 Stanley Cups in their
             history.
           </Card.Text>
-          <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
+          <Card.Title className='text-center display-6'>Stanley Cup Wins</Card.Title>
           <CupWins team={team} />
         </Card.Body>
         <Card.Body>
-          <Card.Title className='text-center'>Notable Players</Card.Title>
+          <Card.Title className='text-center display-6'>Notable Players</Card.Title>
           <PlayerTable team={team} className='text-center'/>
         </Card.Body>
       </Card>
 
-      <Card style={{ width: '18rem' }} className='m-auto mt-3'>
+      <Card style={{ width: '18rem' }} className='m-auto mt-3 '>
         <Card.Body>
-          <Card.Title className='text-center'>Find Tickets!!</Card.Title>
+          <Card.Title className='text-center display-6'>Find Tickets!!</Card.Title>
           <Tickets team={team} />
         </Card.Body>
       </Card>
