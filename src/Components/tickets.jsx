@@ -24,6 +24,7 @@ const Tickets = ({ team }) => {
       
       <h3>Next Five Games</h3>
       {tickets.length > 0 ? (
+        <div className="row justify-content-center">
         <ul>
           {tickets.slice(0, 5).map((event) => (
             <li key={event.id}>
@@ -34,6 +35,7 @@ const Tickets = ({ team }) => {
             </li>
           ))}
         </ul>
+        </div>
       ) : (
         <p>No games scheduled...</p>
       )}
