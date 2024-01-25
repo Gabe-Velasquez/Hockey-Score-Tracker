@@ -92,7 +92,6 @@ ul{
 }
 
 .About-Tiles > .puck-card {
-  
   width: 100%; /* Make each card take full width */
 }
 
@@ -121,10 +120,14 @@ ul{
   border-radius: 5px;
   backdrop-filter: blur(14px);
   background-color: rgba(231, 224, 224, 0.796);
-  padding: 10px;
+  /* padding: 10px; */
   text-align: center;
   border-radius: 25px;
 }
+
+
+
+
 
 .ANA {
   /* Black #010101 */

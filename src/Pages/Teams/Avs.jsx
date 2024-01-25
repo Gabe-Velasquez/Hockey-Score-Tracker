@@ -48,6 +48,7 @@ export default function Avs() {
           style={{
             fontSize: '1.5rem',
             display: 'flex',
+            alignItems: 'center',
             justifyContent: 'space-around',
           }}
         >
