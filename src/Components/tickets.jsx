@@ -22,7 +22,7 @@ const Tickets = ({ team }) => {
   return (
     <div className='text-center'>
       
-      <h3>Next Five Games</h3>
+      <h4>Next Five Games</h4>
       {tickets.length > 0 ? (
         <div className="row justify-content-center">
         <ul>

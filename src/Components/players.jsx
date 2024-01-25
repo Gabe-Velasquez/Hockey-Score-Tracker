@@ -1,5 +1,3 @@
-
-
 import PropTypes from 'prop-types';
 
 const PlayerTable = ({ team }) => {
@@ -19,7 +17,7 @@ const PlayerTable = ({ team }) => {
   console.log('Players array:', players);
 
   return (
-    <table className='text-center'>
+    <table className='text-center mx-auto'>
       <thead>
         <tr>
           <th>Player</th>
