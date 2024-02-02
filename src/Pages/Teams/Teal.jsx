@@ -3,6 +3,7 @@ import teams from '../../utils/teams';
 import renderSocialLinks from '../../Components/renderSocialLinks';
 import PlayerTable from '../../Components/players';
 import CupWins from '../../Components/cupWins';
+import Tickets from '../../Components/tickets';
 export default function Teals() {
   // Never heard a sharks fan call them this... then again I only know one fan.
   const sanJoseSharks = teams.filter((team) => team.team === 'San Jose Sharks');
@@ -36,7 +37,7 @@ export default function Teals() {
       <Card style={{ width: '18rem' }} className='m-auto'>
         <Card.Body>
           <Card.Title className='text-center'>Find Tickets!!</Card.Title>
-          {/* Currently doing research for ticketmaster and stubhub APIs  */}
+          <Tickets team={team} />
         </Card.Body>
       </Card>
 

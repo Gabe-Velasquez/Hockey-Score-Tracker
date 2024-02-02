@@ -2,7 +2,8 @@ import Card from 'react-bootstrap/Card';
 import teams from '../../utils/teams';
 import renderSocialLinks from '../../Components/renderSocialLinks';
 import PlayerTable from '../../Components/players';
-import CupWins from '../../Components/cupWins';
+import CupWins from '../../Components/cupWins'
+import Tickets from '../../Components/tickets';
 export default function Knights() {
   const vegasGoldenKnights = teams.filter(
     (team) => team.team === 'Vegas Golden Knights'
@@ -34,7 +35,7 @@ export default function Knights() {
       <Card style={{ width: '18rem' }} className='m-auto'>
         <Card.Body>
           <Card.Title className='text-center'>Find Tickets!!</Card.Title>
-          {/* Currently doing research for ticketmaster and stubhub APIs  */}
+          <Tickets team={team} />
         </Card.Body>
       </Card>
 

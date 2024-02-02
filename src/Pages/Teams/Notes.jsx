@@ -3,6 +3,7 @@ import teams from '../../utils/teams';
 import renderSocialLinks from '../../Components/renderSocialLinks';
 import PlayerTable from '../../Components/players';
 import CupWins from '../../Components/cupWins';
+import Tickets from '../../Components/tickets';
 export default function Notes() {
   //The Blue Notes... 9 hours from West Virginia but they always sing this song....
   const stLouisBlues = teams.filter((team) => team.team === 'St. Louis Blues');
@@ -33,7 +34,7 @@ export default function Notes() {
     <Card style={{ width: '18rem' }} className='m-auto'>
       <Card.Body>
         <Card.Title className='text-center'>Find Tickets!!</Card.Title>
-        {/* Currently doing research for ticketmaster and stubhub APIs  */}
+        <Tickets team={team} />
       </Card.Body>
     </Card>
 

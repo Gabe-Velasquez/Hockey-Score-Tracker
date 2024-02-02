@@ -3,6 +3,7 @@ import teams from '../../utils/teams';
 import renderSocialLinks from '../../Components/renderSocialLinks';
 import PlayerTable from '../../Components/players';
 import CupWins from '../../Components/cupWins';
+import Tickets from '../../Components/tickets';
 export default function Buffaslug() {
   const buffaloSabres = teams.filter((team) => team.team === 'Buffalo Sabres');
   return buffaloSabres.map((team) => (
@@ -32,7 +33,7 @@ export default function Buffaslug() {
       <Card style={{ width: '18rem' }} className='m-auto'>
         <Card.Body>
           <Card.Title className='text-center'>Find Tickets!!</Card.Title>
-          {/* Currently doing research for ticketmaster and stubhub APIs  */}
+          <Tickets team={team} />
         </Card.Body>
       </Card>
 

@@ -3,6 +3,7 @@ import teams from '../../utils/teams';
 import renderSocialLinks from '../../Components/renderSocialLinks';
 import PlayerTable from '../../Components/players';
 import CupWins from '../../Components/cupWins';
+import Tickets from '../../Components/tickets';
 export default function Bolts() {
   const tampaBayLightning = teams.filter(
     (team) => team.team === 'Tampa Bay Lightning'
@@ -34,7 +35,7 @@ export default function Bolts() {
     <Card style={{ width: '18rem' }} className='m-auto'>
       <Card.Body>
         <Card.Title className='text-center'>Find Tickets!!</Card.Title>
-        {/* Currently doing research for ticketmaster and stubhub APIs  */}
+        <Tickets team={team} />
       </Card.Body>
     </Card>
 

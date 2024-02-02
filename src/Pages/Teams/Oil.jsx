@@ -3,6 +3,7 @@ import teams from '../../utils/teams';
 import renderSocialLinks from '../../Components/renderSocialLinks';
 import PlayerTable from '../../Components/players';
 import CupWins from '../../Components/cupWins';
+import Tickets from '../../Components/tickets';
 export default function Oil() {
   //Which Wonder Twin will be the first to leave?
   const edmontonOilers = teams.filter(
@@ -36,7 +37,7 @@ Buckle up, Oilers fans, because we&apos;re about to rocket into the high-octane 
       <Card style={{ width: '18rem' }} className='m-auto'>
         <Card.Body>
           <Card.Title className='text-center'>Find Tickets!!</Card.Title>
-          {/* Currently doing research for ticketmaster and stubhub APIs  */}
+          <Tickets team={team} />
         </Card.Body>
       </Card>
 

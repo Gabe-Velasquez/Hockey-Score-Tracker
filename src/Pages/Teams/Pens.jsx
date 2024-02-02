@@ -3,6 +3,7 @@ import teams from '../../utils/teams';
 import renderSocialLinks from '../../Components/renderSocialLinks';
 import PlayerTable from '../../Components/players';
 import CupWins from '../../Components/cupWins';
+import Tickets from '../../Components/tickets';
 export default function Pens() {
   // Not to be confused by the Bic product but those tiny birds with tuxedos
   const pittsburghPenguins = teams.filter(
@@ -36,7 +37,7 @@ Alright, hockey fans, strap on your Crosby jerseys and get ready to witness the 
       <Card style={{ width: '18rem' }} className='m-auto'>
         <Card.Body>
           <Card.Title className='text-center'>Find Tickets!!</Card.Title>
-          {/* Currently doing research for ticketmaster and stubhub APIs  */}
+          <Tickets team={team} />
         </Card.Body>
       </Card>
 
