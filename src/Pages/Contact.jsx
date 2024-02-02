@@ -4,10 +4,10 @@ import PersonalSocials from '../Components/personalSocials';
 export default function Contact() {
   return (
     <div className='puck'>
-    <Card className='m-auto text-center' style={{ width: '18rem' }}>
+    <Card className='m-auto text-center ' style={{ width: '28rem', fontSize: '34px' }}>
       <Card.Body>
-        <Card.Title>Contact</Card.Title>
-        {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+        <Card.Text>Contact</Card.Text>
+        
         <Card.Text>
           Thank you for using my application! If you have any questions or
           experience any issues, you can reach out to me on the following

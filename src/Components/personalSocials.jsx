@@ -5,7 +5,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function personalSocials() {
   return (
-    <div>
+    <div className='d-flex justify-content-center gap-5' style={{ fontSize: '60px' }}>
       <Card.Link
         href='https://www.linkedin.com/in/gabriel-velasquez-/'
         target='_blank'
