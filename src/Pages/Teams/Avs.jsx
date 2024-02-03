@@ -12,7 +12,7 @@ export default function Avs() {
   );
   return coloradoAvalanche.map((team) => (
     <div key={team.team} className={team.teamStyle}>
-      <div className='mx-auto mt-4'>
+      <div className='mx-auto mt-4 d-flex justify-content-between'>
       <Card style={{ width: '26rem' }} className='m-auto'>
         <Card.Body>
           <Card.Title className='text-center display-5 text-decoration-underline'>{team.team}</Card.Title>
@@ -30,14 +30,22 @@ export default function Avs() {
           <PlayerTable team={team} className='text-center'/>
         </Card.Body>
       </Card>
+      
+        <div>
+          <Card style={{ width: '18rem' }} className='m-auto mt-3'>
+            <Card.Body>
+              <Card.Title className='text-center display-6'>Find tickets to upcoming games!!</Card.Title>
+              <Tickets team={team} />
+            </Card.Body>
+          </Card>
 
-      <Card style={{ width: '18rem' }} className='m-auto mt-3 '>
-        <Card.Body>
-          <Card.Title className='text-center display-6'>Find tickets to upcoming games!!</Card.Title>
-          <Tickets team={team} />
-        </Card.Body>
-      </Card>
+          <Card>
+            <Arena team={team}/>
+          </Card>
+        </div>
       </div>
+
+      <div> 
       <Card key={team.team} style={{ width: '80%' }} className='Team-Card'>
         <Card.Body
           style={{
@@ -51,9 +59,7 @@ export default function Avs() {
           {renderSocialLinks(team)}
         </Card.Body>
       </Card>
-      <Card>
-        <Arena team={team}/>
-      </Card>
+      </div>
     </div>
   ));
 }
