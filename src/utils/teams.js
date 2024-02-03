@@ -248,7 +248,7 @@ const teams = [
       {
         team: "Colorado Avalanche",
         teamStyle: "COL",
-        arena:'',
+        arena:'Ball Arena',
         arenaAddress: '1000 Chopper Cir, Denver, CO 80204',
         facebook: "https://www.facebook.com/coloradoavalanche",
         instagram: "https://www.instagram.com/coloradoavalanche/",

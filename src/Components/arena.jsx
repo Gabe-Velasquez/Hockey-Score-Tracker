@@ -11,14 +11,14 @@ return(
         loading="lazy"
         allowFullScreen={true}
         referrerPolicy="noReferrerWhenDowngrade"
-        src={team.arenaAddress}>
+        src={team.arena}>
     </iframe>
 )
 }
 
 Arena.propTypes = {
   team: PropTypes.shape({
-    arenaAddress: PropTypes.string.isRequired
+    arena: PropTypes.string.isRequired
   }).isRequired
 };
 

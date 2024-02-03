@@ -4,6 +4,7 @@ import renderSocialLinks from '../../Components/renderSocialLinks';
 import PlayerTable from '../../Components/players';
 import CupWins from '../../Components/cupWins';
 import Tickets from '../../Components/tickets';
+import Arena from '../../Components/arena';
 export default function Avs() {
   // And now the Rocky Mountain Extremes.... nvm Colorado Avalanche
   const coloradoAvalanche = teams.filter(
@@ -49,6 +50,9 @@ export default function Avs() {
           {/* Socials */}
           {renderSocialLinks(team)}
         </Card.Body>
+      </Card>
+      <Card>
+        <Arena team={team}/>
       </Card>
     </div>
   ));
