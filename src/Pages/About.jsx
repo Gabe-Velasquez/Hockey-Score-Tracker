@@ -30,6 +30,11 @@ export default function About() {
               For the players on each team page, I made an API that will call depending on which team is being loaded. From there, I have it linked to Wikipedia pages for each player that is called. If you wanted to follow a specific team&apos;s social media, I have them listed on each of their pages! 
             </Card.Text>
         </Card>
+        <Card className='puck-card'>
+            <Card.Text>
+              Google Maps API was used to gather where each arena for a team was and plotted the facility with a simple query with a given arena name. Used their main documentation located at https://developers.google.com/maps/documentation/embed/quickstart. I used the embeded api since it is free with an api key.  
+            </Card.Text>
+        </Card>
       </div>
     </div>
   );
