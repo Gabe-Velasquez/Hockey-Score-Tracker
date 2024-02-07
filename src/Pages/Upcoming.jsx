@@ -10,6 +10,7 @@ export default function Upcoming(){
       .catch(err=>console.log(err))
     })
       return(
+        // going to add more to this page. 
         <div>
             <h1 className='text-center'>Upcoming Games</h1>
           <table className=' centered-t text-center'>
