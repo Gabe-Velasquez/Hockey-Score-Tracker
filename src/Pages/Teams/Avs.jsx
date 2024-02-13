@@ -5,6 +5,7 @@ import PlayerTable from '../../Components/players';
 import CupWins from '../../Components/cupWins';
 import Tickets from '../../Components/tickets';
 import Arena from '../../Components/arena';
+import Yelp from '../../Components/yelp';
 export default function Avs() {
   // And now the Rocky Mountain Extremes.... nvm Colorado Avalanche
   const coloradoAvalanche = teams.filter(
@@ -41,6 +42,9 @@ export default function Avs() {
 
           <Card>
             <Arena team={team}/>
+          </Card>
+          <Card>
+            <Yelp team={team} />
           </Card>
         </div>
       </div>
