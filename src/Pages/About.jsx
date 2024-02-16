@@ -5,7 +5,6 @@ export default function About() {
     <Card className='text-center ' style={{marginLeft: 280, marginRight: 280, marginBottom: 40}}>
       <Card.Body>
         <Card.Title>About</Card.Title>
-        {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
         <Card.Text>
           This is a simple web application built using React.js, Node.js and
           Express.js. This application is built to fetch scores, learn about
