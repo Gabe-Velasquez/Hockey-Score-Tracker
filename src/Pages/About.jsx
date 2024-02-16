@@ -32,7 +32,12 @@ export default function About() {
         </Card>
         <Card className='puck-card'>
             <Card.Text>
-              Google Maps API was used to gather where each arena for a team was and plotted the facility with a simple query with a given arena name. Used their main documentation located at https://developers.google.com/maps/documentation/embed/quickstart. I used the embeded api since it is free with an api key.  
+              Google Maps API was used to gather where each arena for a team was and plotted the facility with a simple query with a given arena name. 
+            </Card.Text>
+        </Card>
+        <Card className='puck-card'>
+            <Card.Text>
+              The Yelp API was used to find a bite to eat around surrounding arenas so the user does not have to settle for overpriced drinks and arena food that does not have taste. 
             </Card.Text>
         </Card>
       </div>

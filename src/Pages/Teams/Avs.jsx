@@ -32,8 +32,8 @@ export default function Avs() {
         </Card.Body>
       </Card>
       
-        <div>
-          <Card style={{ width: '18rem' }} className='m-auto mt-3'>
+        <div className='m-auto mt-6'>
+          <Card style={{ width: '30rem' }} className='m-auto mt-3'>
             <Card.Body>
               <Card.Title className='text-center display-6'>Find tickets to upcoming games!!</Card.Title>
               <Tickets team={team} />

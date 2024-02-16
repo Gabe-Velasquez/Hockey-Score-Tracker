@@ -225,6 +225,7 @@ ul{
   height: 100vh;
   display: flex;
   flex-direction: row;
+  justify-content:space-between;
   /* background-repeat: no-repeat;
  
   /* background-size: contain;
