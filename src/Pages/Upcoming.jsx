@@ -8,7 +8,7 @@ export default function Upcoming(){
       axios.get(`https://api.the-odds-api.com/v4/sports/icehockey_nhl/scores/?completed=false&apiKey=${API_KEY}`)
       .then(res=>{setScores(res.data)})
       .catch(err=>console.log(err))
-    })
+    }, [])
       return(
         // going to add more to this page. 
         <div>
