@@ -8,7 +8,7 @@ export default function About() {
         <Card.Text>
           This is a simple web application built using React.js, Node.js and
           Express.js. This application is built to fetch scores, learn about
-          teams (fun facts and trivia), and betting odds of live games.
+          teams (fun facts and trivia), and betting odds of live games. This application was built as a passion project and do not own any of these images. 
         </Card.Text>
         </Card.Body>
     </Card>
