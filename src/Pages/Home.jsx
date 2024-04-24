@@ -1,5 +1,5 @@
 import Card from 'react-bootstrap/Card';
-import Scores from '../components/Scores.jsx';
+import Scores from '../Components/scores.jsx';
 
 
 function Home() {
