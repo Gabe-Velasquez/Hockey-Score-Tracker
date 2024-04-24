@@ -4,7 +4,7 @@ import Scores from '../Components/scores.jsx';
 
 function Home() {
   return (
-    <div className='puck'>
+    <div style={{ display:'flex', justifyContent:'space-evenly', alignItems:'center'}}>
       <Card className='text-center puck-card' style={{ width: '18rem', display:'flex', justifyContent:'center', alignItems:'center', }}>
         <Card.Body>
           <Card.Title>Welcome to my NHL Score Tracker Application</Card.Title>
@@ -14,7 +14,7 @@ function Home() {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card className='text-center puck-card' style={{ width: '18rem', display:'flex', justifyContent:'center', alignItems:'center', }}>
+      <Card className='text-center puck-card' style={{ width: '20rem', display:'flex', justifyContent:'center', alignItems:'center', }}>
         <Card.Body>
           <h1>Playoff Hockey is HERE!</h1>
 
