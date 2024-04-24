@@ -14,7 +14,7 @@ export default function Yotes() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-            The Arizona Coyotes are an ice hockey team based in the Phoenix metropolitan area. They are members of the National Hockey League&apos;s (NHL) Central Division. The team was founded in 1996 as the Phoenix Coyotes, and they changed their name to the Arizona Coyotes in 2014.            
+            The Arizona Coyotes were an ice hockey team based in the Phoenix metropolitan area. They were members of the National Hockey League&apos;s (NHL) Central Division. The team was founded in 1996 as the Phoenix Coyotes, and they changed their name to the Arizona Coyotes in 2014. The team has moved to Utah in 2024. To be honest, not sure how you got to this webpage but congrats!            
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />

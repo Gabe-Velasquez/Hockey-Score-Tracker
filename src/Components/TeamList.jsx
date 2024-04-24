@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 const teamPaths = [
   '/Teams/AnaheimDucks',
-  '/Teams/ArizonaCoyotes',
+  // '/Teams/ArizonaCoyotes',
   '/Teams/BostonBruins',
   '/Teams/BuffaloSabres',
   '/Teams/CalgaryFlames',
