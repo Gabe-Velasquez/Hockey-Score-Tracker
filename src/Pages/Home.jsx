@@ -11,7 +11,8 @@ const getUpcomingGame = (scores)=>{
   return scores.some(score=> new Date(score.date)<= threeDays);
 }
 
-function Home() {
+function Home({scores}) {
+  const hasUpcomingGame = getUpcomingGame(scores)
   return (
     <div style={{ display:'flex', justifyContent:'space-evenly', alignItems:'center'}}>
       <Card className='text-center puck-card' style={{ width: '18rem', display:'flex', justifyContent:'center', alignItems:'center', }}>
