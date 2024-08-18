@@ -14,10 +14,18 @@ function Home() {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card className='text-center puck-card' style={{ width: '20rem', display:'flex', justifyContent:'center', alignItems:'center', }}>
+      {/* Playoff Hockey Card will go here, need to make one for current/incoming season, have ternary operator to switch between seasons and render appropriately*/}
+      {/* <Card className='text-center puck-card' style={{ width: '20rem', display:'flex', justifyContent:'center', alignItems:'center', }}>
         <Card.Body>
           <h1>Playoff Hockey is HERE!</h1>
 
+          <Scores />
+        </Card.Body>
+      </Card> */}
+      {/* This really could be built in one card with conditional operator to switch */}
+      <Card  className='text-center puck-card' style={{ width: '20rem', display:'flex', justifyContent:'center', alignItems:'center', }}>
+        <Card.Body>
+          <h1>Currently in Season</h1>
           <Scores />
         </Card.Body>
       </Card>
