@@ -24,6 +24,29 @@ function Home({scores}) {
           </Card.Text>
         </Card.Body>
       </Card>
+
+      {scores === null || scores.length === 0 ? (
+        <Card className='text-center puck-card' style={{ width: '20rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <Card.Body>
+            <h1>It's the Offseason!</h1>
+          </Card.Body>
+        </Card>
+      ) : hasUpcomingGame ? (
+        // need to make change, if team plays the same team 3 to four times in a row... switch to playoff render.
+        <Card className='text-center puck-card' style={{ width: '20rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <Card.Body>
+            <h1>Playoff</h1>
+            <Scores />
+          </Card.Body>
+        </Card>
+      ) : (
+        <Card className='text-center puck-card' style={{ width: '20rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <Card.Body>
+            <h1>Currently in Season</h1>
+            <Scores />
+          </Card.Body>
+        </Card>
+      )}
       {/* Playoff Hockey Card will go here, need to make one for current/incoming season, have ternary operator to switch between seasons and render appropriately*/}
       {/* <Card className='text-center puck-card' style={{ width: '20rem', display:'flex', justifyContent:'center', alignItems:'center', }}>
         <Card.Body>
@@ -33,12 +56,12 @@ function Home({scores}) {
         </Card.Body>
       </Card> */}
       {/* This really could be built in one card with conditional operator to switch */}
-      <Card  className='text-center puck-card' style={{ width: '20rem', display:'flex', justifyContent:'center', alignItems:'center', }}>
+      {/* <Card  className='text-center puck-card' style={{ width: '20rem', display:'flex', justifyContent:'center', alignItems:'center', }}>
         <Card.Body>
           <h1>Currently in Season</h1>
           <Scores />
         </Card.Body>
-      </Card>
+      </Card> */}
     </div>
   );
 }
