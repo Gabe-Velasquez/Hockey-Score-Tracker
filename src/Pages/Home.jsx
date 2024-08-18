@@ -1,6 +1,15 @@
 import Card from 'react-bootstrap/Card';
 import Scores from '../Components/scores.jsx';
 
+const getUpcomingGame = (scores)=>{
+  if (!scores || scores.length === 0) 
+  return false;
+
+  // creates time comparison
+  const now= new Date();
+  const threeDays = new Date(now.getTime()+3*24*60*60*1000);
+  return scores.some(score=> new Date(score.date)<= threeDays);
+}
 
 function Home() {
   return (
