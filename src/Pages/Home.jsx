@@ -28,7 +28,7 @@ function Home({scores}) {
       {scores === null || scores.length === 0 ? (
         <Card className='text-center puck-card' style={{ width: '20rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <Card.Body>
-            <h1>It's the Offseason!</h1>
+            <h1>It's the Offseason! Time to watch baseball! </h1>
           </Card.Body>
         </Card>
       ) : hasUpcomingGame ? (
@@ -42,7 +42,7 @@ function Home({scores}) {
       ) : (
         <Card className='text-center puck-card' style={{ width: '20rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <Card.Body>
-            <h1>Currently in Season</h1>
+            <h1>Currently in Season! </h1>
             <Scores />
           </Card.Body>
         </Card>
