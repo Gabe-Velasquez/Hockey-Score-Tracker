@@ -1,3 +1,4 @@
+
 import Card from 'react-bootstrap/Card';
 import Scores from '../Components/scores.jsx';
 
@@ -11,8 +12,27 @@ const getUpcomingGame = (scores)=>{
   return scores.some(score=> new Date(score.date)<= threeDays);
 }
 
+const isPlayoffSeries = (scores) =>{
+  if (!scores || scores.length === 0)
+  return false;
+
+  let consecutiveCount=1;
+  for (let i=1; i< scores.length; i++){
+    if (scores[i].team === scores[i-1].team){
+      consecutiveCount++;
+      if (consecutiveCount>=3){
+        return true;
+      }}else{
+        consecutiveCount=1;
+      }
+    }
+    return false;
+}
+
 function Home({scores}) {
-  const hasUpcomingGame = getUpcomingGame(scores)
+  const hasUpcomingGame = getUpcomingGame(scores);
+  const isPlayoff = isPlayoffSeries(scores);
+
   return (
     <div style={{ display:'flex', justifyContent:'space-evenly', alignItems:'center'}}>
       <Card className='text-center puck-card' style={{ width: '18rem', display:'flex', justifyContent:'center', alignItems:'center', }}>
@@ -31,19 +51,25 @@ function Home({scores}) {
             <h1>It's the Offseason! Time to watch baseball! </h1>
           </Card.Body>
         </Card>
-      ) : hasUpcomingGame ? (
-        // need to make change, if team plays the same team 3 to four times in a row... switch to playoff render.
+      ) : isPlayoff ? (
+    
         <Card className='text-center puck-card' style={{ width: '20rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <Card.Body>
             <h1>Playoff</h1>
             <Scores />
           </Card.Body>
         </Card>
-      ) : (
+      ) : hasUpcomingGame ? (
         <Card className='text-center puck-card' style={{ width: '20rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <Card.Body>
             <h1>Currently in the season! </h1>
             <Scores />
+          </Card.Body>
+        </Card>
+      ) : (
+        <Card className='text-center puck-card' style={{ width: '20rem', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+          <Card.Body>
+            <h1>No games scheduled soon!</h1>
           </Card.Body>
         </Card>
       )}
