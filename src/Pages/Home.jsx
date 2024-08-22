@@ -69,7 +69,7 @@ function Home({scores}) {
       ) : (
         <Card className='text-center puck-card' style={{ width: '20rem', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
           <Card.Body>
-            <h1>No games scheduled soon!</h1>
+            <h1>No games scheduled soon! Check back later!!</h1>
           </Card.Body>
         </Card>
       )}
