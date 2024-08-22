@@ -2,40 +2,40 @@
 import Card from 'react-bootstrap/Card';
 import Scores from '../Components/scores.jsx';
 
-const getUpcomingGame = (scores)=>{
-  if (!scores || scores.length === 0) 
-  return false;
+// const getUpcomingGame = (scores)=>{
+//   if (!scores || scores.length === 0) 
+//   return false;
 
-  // creates time comparison
-  const now= new Date();
-  const threeDays = new Date(now.getTime()+3*24*60*60*1000);
-  return scores.some(score=> new Date(score.date)<= threeDays);
-}
+//   // creates time comparison
+//   const now= new Date();
+//   const threeDays = new Date(now.getTime()+3*24*60*60*1000);
+//   return scores.some(score=> new Date(score.date)<= threeDays);
+// }
 
-const isPlayoffSeries = (scores) =>{
-  if (!scores || scores.length === 0)
-  return false;
+// const isPlayoffSeries = (scores) =>{
+//   if (!scores || scores.length === 0)
+//   return false;
 
-  let consecutiveCount=1;
-  for (let i=1; i< scores.length; i++){
-    if (scores[i].team === scores[i-1].team){
-      consecutiveCount++;
-      if (consecutiveCount>=3){
-        return true;
-      }}else{
-        consecutiveCount=1;
-      }
-    }
-    return false;
-}
+//   let consecutiveCount=1;
+//   for (let i=1; i< scores.length; i++){
+//     if (scores[i].team === scores[i-1].team){
+//       consecutiveCount++;
+//       if (consecutiveCount>=3){
+//         return true;
+//       }}else{
+//         consecutiveCount=1;
+//       }
+//     }
+//     return false;
+// }
 
 function Home({scores}) {
-  const hasUpcomingGame = getUpcomingGame(scores);
-  const isPlayoff = isPlayoffSeries(scores);
+  // const hasUpcomingGame = getUpcomingGame(scores);
+  // const isPlayoff = isPlayoffSeries(scores);
 
   return (
     <div style={{ display:'flex', justifyContent:'space-evenly', alignItems:'center'}}>
-      <Card className='text-center puck-card' style={{ width: '18rem', display:'flex', justifyContent:'center', alignItems:'center', }}>
+      {/* <Card className='text-center puck-card' style={{ width: '18rem', display:'flex', justifyContent:'center', alignItems:'center', }}>
         <Card.Body>
           <Card.Title>Welcome to my NHL Score Tracker Application</Card.Title>
           
@@ -65,14 +65,14 @@ function Home({scores}) {
             <h1>Currently in the season! </h1>
             <Scores />
           </Card.Body>
-        </Card>
-      ) : (
+        </Card> */}
+        (
         <Card className='text-center puck-card' style={{ width: '20rem', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
           <Card.Body>
             <h1>No games scheduled soon! Check back later!!</h1>
           </Card.Body>
         </Card>
-      )}
+      )
     </div>
   );
 }
