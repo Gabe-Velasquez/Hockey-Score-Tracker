@@ -170,7 +170,9 @@ const teams = [
         player10:`Mark Giordano`,
         years10:`2008-2021`,
         player11:`Gary Roberts`,
-        years11:`1986-1996`
+        years11:`1986-1996`,
+        player12: `Johnny Gaudreau`,
+        years12:`2014-2022`,
       },
       {
         team: "Carolina Hurricanes",

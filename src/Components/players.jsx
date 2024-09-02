@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const PlayerTable = ({ team }) => {
   console.log('Team data:', team);
   const players = [];
-  for (let i = 1; i <= 12; i++) {
+  for (let i = 1; i <= 15; i++) {
     if (
       Object.prototype.hasOwnProperty.call(team, `player${i}`) &&
       Object.prototype.hasOwnProperty.call(team, `years${i}`)
