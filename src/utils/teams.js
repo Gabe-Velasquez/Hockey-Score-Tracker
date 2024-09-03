@@ -442,6 +442,7 @@ const teams = [
         tiktok: "https://www.tiktok.com/@flapanthers",
         youtube: "https://www.youtube.com/channel/UCSSc4wVk6telelb58RrLYdg",
         twitter:"https://twitter.com/flapanthers",
+        cupWin1:`2023-2024`,
         player1:`Aleksander Barkov`,
         years1:`2013- current`,
         player2:`Roberto Luongo`,
