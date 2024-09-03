@@ -182,7 +182,7 @@ const teams = [
         facebook: "https://www.facebook.com/Hurricanes",
         instagram: "https://www.instagram.com/canes/",
         tiktok: "https://www.tiktok.com/@canes",
-        youtube: "",
+        youtube: "https://www.youtube.com/@CarolinaHurricanes",
         twitter:"https://twitter.com/Canes",
         cupWin1:`2005-2006`,
         player1:`Ron Francis`,

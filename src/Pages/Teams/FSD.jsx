@@ -26,7 +26,7 @@ export default function FSD() {
       </Card>
 
       <div className='Column-B'>
-          <Card style={{ width: '18rem' }} className='m-auto mt-3'>
+          <Card style={{ width: '18rem' }} className='m-auto '>
             <Card.Body>
               <Card.Title className='text-center display-6'>Find tickets to upcoming games!!</Card.Title>
               <Tickets team={team} />
@@ -38,12 +38,14 @@ export default function FSD() {
           </Card>
         </div>
 
-      <Card key={team.team} style={{ width: '80%' }} className='Team-Card'>
-        <Card.Body style={{fontSize:'1.5rem',display:'flex', justifyContent:'space-around'}}>
-          {/* Socials */}
-          {renderSocialLinks(team)}
-        </Card.Body>
-      </Card>
+      <div className='fixed-container'>
+        <Card key={team.team} style={{ width: '80%' }} className='Team-Card'>
+          <Card.Body style={{fontSize:'1.5rem',display:'flex', justifyContent:'space-around'}}>
+            {/* Socials */}
+            {renderSocialLinks(team)}
+          </Card.Body>
+        </Card>
+      </div>
     </div>
   ));
 }

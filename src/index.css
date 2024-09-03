@@ -95,6 +95,13 @@ ul{
   width: 100%; /* Make each card take full width */
 }
 
+.fixed-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
 /* NHL TEAM CLASSES */
 .Team-Card {
   /* position: absolute;
