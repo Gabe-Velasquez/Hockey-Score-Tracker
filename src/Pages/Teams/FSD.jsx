@@ -10,7 +10,7 @@ export default function FSD() {
   const calgaryFlames = teams.filter((team) => team.team === 'Calgary Flames');
   return calgaryFlames.map((team) => (
     <div key={team.team} className={team.teamStyle}>
-      <Card style={{ width: '18rem' }} className='m-auto'>
+      <Card style={{ width: '18rem' }} className='team-container '>
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
@@ -26,17 +26,18 @@ export default function FSD() {
       </Card>
 
       <div className='Column-B'>
-          <Card style={{ width: '18rem' }} className='m-auto '>
+          <Card style={{ width: '18rem' }} className=''>
             <Card.Body>
               <Card.Title className='text-center display-6'>Find tickets to upcoming games!!</Card.Title>
               <Tickets team={team} />
+              <Arena team={team} />
             </Card.Body>
           </Card>
 
-          <Card>
+          {/* <Card>
             <Arena team={team}/>
-          </Card>
-        </div>
+          </Card> */}
+      </div>
 
       <div className='fixed-container'>
         <Card key={team.team} style={{ width: '80%' }} className='Team-Card'>

@@ -20,7 +20,7 @@ Arena.propTypes = {
     arena: PropTypes.string.isRequired,
     arenaAddress: PropTypes.string.isRequired
   }).isRequired,
-  VITE_MAPS_KEY: PropTypes.string.isRequired
+  // VITE_MAPS_KEY: PropTypes.string.isRequired
 };
 
 export default Arena;
