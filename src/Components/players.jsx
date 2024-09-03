@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 
 const PlayerTable = ({ team }) => {
-  console.log('Team data:', team);
   const players = [];
   for (let i = 1; i <= 15; i++) {
     if (
@@ -14,8 +13,7 @@ const PlayerTable = ({ team }) => {
       });
     }
   }
-  console.log('Players array:', players);
-
+ 
   return (
     <table className='text-center mx-auto'>
       <thead>

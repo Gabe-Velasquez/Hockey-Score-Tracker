@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 
 const CupWins = ({ team }) => {
-  console.log('Team data:', team);
-
   const wins = [];
   for (let i = 1; i <= 50; i++) {
     if (

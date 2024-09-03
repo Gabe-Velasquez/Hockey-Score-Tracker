@@ -4,13 +4,12 @@ import { useEffect, useState } from 'react';
 
 const Tickets = ({ team }) => {
   const API_KEY = import.meta.env.VITE_TICKET_API_KEY;
-  console.log(`Ticket: ${API_KEY}`);
   const [tickets, setTickets] = useState([]);
   useEffect(() => {
     const baseURL = 'https://api.seatgeek.com/2/events';
     const teamSlug = encodeURIComponent(team.team.replace(/\s+/g, '-'));
     const dynamicURL = `${baseURL}?performers.slug=${teamSlug}&client_id=${API_KEY}`;
-    console.log(dynamicURL);
+    
     axios
     .get(dynamicURL, {
       headers: {
@@ -18,7 +17,6 @@ const Tickets = ({ team }) => {
       },
     })
     .then((res) => {
-      console.log(res.data)
       setTickets(res.data.events);
     })
     .catch((err) => console.log(err));
