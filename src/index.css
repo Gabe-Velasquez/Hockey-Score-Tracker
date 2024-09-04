@@ -48,7 +48,10 @@ ul{
 }
 
 .team-container{
-  display: flex;
+  display:flex;
+  align-content: center;
+  justify-content:center;
+  margin: 2rem;
 }
 
 .puck{
@@ -131,11 +134,7 @@ ul{
 }
 
 .Column-B{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
+  margin-top: auto;
 }
 
 
@@ -202,7 +201,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .CGY {
@@ -213,7 +211,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .CHI {
@@ -224,7 +221,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .COL {
@@ -233,7 +229,6 @@ ul{
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: auto;
-  height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content:space-between;
@@ -253,7 +248,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .DET {
@@ -263,7 +257,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .EDM {
@@ -274,7 +267,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .FLA {
@@ -286,7 +278,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .LAK {
@@ -297,7 +288,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .MIN {
@@ -308,7 +298,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .MTL {
@@ -319,7 +308,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .NJD {
@@ -330,7 +318,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .NSH {
@@ -341,7 +328,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .NYI {
@@ -352,7 +338,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .NYR {
@@ -363,7 +348,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .OTT {
@@ -375,7 +359,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .PHI {
@@ -386,7 +369,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .PIT {
@@ -397,7 +379,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .SEA {
@@ -409,7 +390,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .SJS {
@@ -420,7 +400,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .STL {
@@ -432,7 +411,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .TBL {
@@ -443,7 +421,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .TOR {
@@ -453,7 +430,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .VAN {
@@ -464,7 +440,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .VGK {
@@ -476,7 +451,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .WPG {
@@ -488,7 +462,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 .WSH {
@@ -499,7 +472,6 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 100vh;
   display: flex;
 }
 

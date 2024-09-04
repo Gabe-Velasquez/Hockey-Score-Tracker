@@ -9,7 +9,7 @@ export default function FSD() {
   // name does not stand for Full Self Driving like what I thought at first.
   const calgaryFlames = teams.filter((team) => team.team === 'Calgary Flames');
   return calgaryFlames.map((team) => (
-    <div key={team.team} className={team.teamStyle}>
+    <div key={team.team} className={`${team.teamStyle} team-container`}>
       <Card style={{ width: '18rem' }} className='team-container '>
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
@@ -18,8 +18,7 @@ export default function FSD() {
           </Card.Text>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />
-        </Card.Body>
-        <Card.Body>
+          <hr></hr>
           <Card.Title className='text-center'>Notable Players</Card.Title>
           <PlayerTable team={team} />
         </Card.Body>
