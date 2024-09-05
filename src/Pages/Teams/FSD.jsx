@@ -14,8 +14,13 @@ export default function FSD() {
         <Card.Body>
           <Card.Title className='text-center'>{team.team}</Card.Title>
           <Card.Text>
-          Get ready for a stampede of excitement with the Calgary Flames! These Alberta-based firebrands have been heating up the ice since 1972, leaving a trail of scorching offense and passionate fans in their wake. Buckle up, because joining the Flames faithful is an experience you won&apos;t soon forget. 
+          Get ready for a stampede of excitement with the Calgary Flames! 
+          These Alberta-based firebrands have been heating up the ice since 1972, l
+          eaving a trail of scorching offense and passionate fans in their wake. 
+          Buckle up, because joining the Flames faithful is an experience you won&apos;t soon forget.
+      
           </Card.Text>
+          <hr></hr>
           <Card.Title className='text-center'>Stanley Cup Wins</Card.Title>
             <CupWins team={team} />
           <hr></hr>
