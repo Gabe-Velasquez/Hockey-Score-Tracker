@@ -211,7 +211,7 @@ const teams = [
       {
         team: "Chicago Blackhawks",
         teamStyle: "CHI",
-        arena:'United Center',
+        arena:'United Center Arena',
         arenaAddress:'1901 W Madison St, Chicago, IL 60612',
         facebook: "https://www.facebook.com/nhlblackhawks",
         instagram: "https://www.instagram.com/NHLBlackhawks",

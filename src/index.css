@@ -207,7 +207,7 @@ ul{
   /* Red #C8102E */
   /* Yellow #F1BE48 */
   /* White #FFFFFF */
-  background-image: url('../src/images/');
+  background-image: url('../src/images/CGY.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
@@ -375,7 +375,7 @@ ul{
   /* Black #010101 */
   /* Gold #FFB81C */
   /* White #FFFFFF */
-  background-image: url('../src/images/');
+  background-image: url('../src/images/PIT.avif');
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
@@ -486,6 +486,15 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
+.team-dropdown-item {
+  transition: background-color 0.2s ease-in-out;  /* Add transition for smooth hover */
+}
+
+.team-dropdown-item:hover {
+  background-color: rgb(138, 139, 147);  /* Set desired hover background color */
+}
+
 button:hover {
   border-color: #646cff;
 }

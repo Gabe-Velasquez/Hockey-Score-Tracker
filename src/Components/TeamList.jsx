@@ -30,6 +30,7 @@ const teamPaths = [
   '/Teams/StLouisBlues',
   '/Teams/TampaBayLightning',
   '/Teams/TorontoMapleLeafs',
+  '/Teams/UtahHockeyClub',
   '/Teams/VancouverCanucks',
   '/Teams/VegasGoldenKnights',
   '/Teams/WashingtonCapitals',
@@ -54,7 +55,7 @@ export default function TeamList() {
     {teamPaths.map((path, index) => {
       const teamNameWithSpaces = path.split('/').pop().replace(/([A-Z])/g, ' $1').trim();
       return (
-        <NavDropdown.Item key={index} href={path} onClick={() => handleTeamClick(path)}>
+        <NavDropdown.Item key={index} href={path} onClick={() => handleTeamClick(path)} className="team-dropdown-item">
           {teamNameWithSpaces}
         </NavDropdown.Item>
       );
