@@ -36,6 +36,7 @@ import Rangers from './Pages/Teams/Rangers.jsx'
 import Sens from './Pages/Teams/Sens.jsx'
 import Sheriffs from './Pages/Teams/Sheriffs.jsx'
 import Teal from './Pages/Teams/Teal.jsx'
+import Utah from './Pages/Teams/Utah.jsx'
 import Wild from './Pages/Teams/Wild.jsx'
 import Wings from './Pages/Teams/Wings.jsx'
 import Yotes from './Pages/Teams/Yotes.jsx'
@@ -192,6 +193,10 @@ const router = createBrowserRouter([
       element: <Teal />
     },
     {
+      path: '/Teams/UtahHockeyClub',
+      element: <Utah />
+    },
+    {
       path: '/Teams/MinnesotaWild',
       element: <Wild />
     },
@@ -199,10 +204,10 @@ const router = createBrowserRouter([
       path: '/Teams/DetroitRedWings',
       element: <Wings />
     },
-    {
-      path: '/Teams/ArizonaCoyotes',
-      element: <Yotes />
-    }
+    // {
+    //   path: '/Teams/ArizonaCoyotes',
+    //   element: <Yotes />
+    // }
   ],
 },
 ]);

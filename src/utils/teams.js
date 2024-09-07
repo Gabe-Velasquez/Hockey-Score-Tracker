@@ -943,6 +943,17 @@ const teams = [
         years11:`2012-2022`
       },
       {
+        team: "Utah Hockey Club",
+        teamStyle: "UTA",
+        arena:'Delta Center',
+        arenaAddress:'301 W South Temple, Salt Lake City, UT 84101',
+        facebook: "https://www.facebook.com/utahhockeyclub/index",
+        instagram: "https://www.instagram.com/utahhockeyclub/?hl=en",
+        tiktok: "https://www.tiktok.com/@utahhockeyclub",
+        youtube: "https://www.youtube.com/@UtahHockeyClub",
+        twitter:"https://x.com/utahhockeyclub"
+      },
+      {
         team: "Vancouver Canucks",
         teamStyle: "VAN",
         arena:'Rogers Arena',
