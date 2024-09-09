@@ -432,6 +432,15 @@ ul{
   width: auto;
   display: flex;
 }
+.UTA {
+  /* Blue #00205B */
+  /* White #FFFFFF */
+  background-image: url('../src/images/UTA.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  display: flex;
+}
 .VAN {
   /* Blue #00205B */
   /* Green #007E3A */
