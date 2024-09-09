@@ -34,10 +34,6 @@ export default function Utah() {
               <Arena team={team} />
             </Card.Body>
           </Card>
-
-          {/* <Card>
-            <Arena team={team}/>
-          </Card> */}
       </div>
 
       <div className='fixed-container'>

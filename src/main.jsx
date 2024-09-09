@@ -39,7 +39,7 @@ import Teal from './Pages/Teams/Teal.jsx'
 import Utah from './Pages/Teams/Utah.jsx'
 import Wild from './Pages/Teams/Wild.jsx'
 import Wings from './Pages/Teams/Wings.jsx'
-import Yotes from './Pages/Teams/Yotes.jsx'
+// import Yotes from './Pages/Teams/Yotes.jsx'
 import './index.css'
 
 const router = createBrowserRouter([
