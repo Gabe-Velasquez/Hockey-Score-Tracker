@@ -16,16 +16,16 @@ export default function Upcoming(){
           <table className=' centered-t text-center'>
             <thead>
               <tr>
-                <th>Home Team</th>
                 <th>Away Team</th>
+                <th>Home Team</th>
                 <th>Puck Drop</th>
               </tr>
             </thead>
             <tbody>
               {scores.map((r,i)=>(
                 <tr key={i}>
-                  <td>{r.home_team}</td>
                   <td>{r.away_team}</td>
+                  <td>{r.home_team}</td>
                   <td>{new Date(r.commence_time).toLocaleString()}</td>
                 </tr>))}
             </tbody>
